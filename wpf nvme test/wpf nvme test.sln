@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf nvme test", "wpf nvme test\wpf nvme test.csproj", "{69BF81E6-058D-4BBF-B850-1EB202A94170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BF81E6-058D-4BBF-B850-1EB202A94170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BF81E6-058D-4BBF-B850-1EB202A94170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BF81E6-058D-4BBF-B850-1EB202A94170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BF81E6-058D-4BBF-B850-1EB202A94170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {114EAEB7-093A-444E-AD46-675AA4D86544}
+	EndGlobalSection
+EndGlobal

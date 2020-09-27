@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "리듬 채팅", "리듬 채팅\리듬 채팅.csproj", "{D63F02C5-A08B-42E4-BFE4-44DFAA31B617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D63F02C5-A08B-42E4-BFE4-44DFAA31B617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63F02C5-A08B-42E4-BFE4-44DFAA31B617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63F02C5-A08B-42E4-BFE4-44DFAA31B617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63F02C5-A08B-42E4-BFE4-44DFAA31B617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C677AA6-6336-44B7-9FAB-9E0DF5BD6C52}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "리듬 주식 트레이딩 봇", "리듬 주식 트레이딩 봇\리듬 주식 트레이딩 봇.csproj", "{833F3101-98B8-45B2-958A-FA1B2F82F449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KHAxLib", "KHAxLib\KHAxLib.csproj", "{A445F1E1-BBF6-4A06-B9F1-85606E7385CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833F3101-98B8-45B2-958A-FA1B2F82F449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833F3101-98B8-45B2-958A-FA1B2F82F449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833F3101-98B8-45B2-958A-FA1B2F82F449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833F3101-98B8-45B2-958A-FA1B2F82F449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A445F1E1-BBF6-4A06-B9F1-85606E7385CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A445F1E1-BBF6-4A06-B9F1-85606E7385CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A445F1E1-BBF6-4A06-B9F1-85606E7385CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A445F1E1-BBF6-4A06-B9F1-85606E7385CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7008DCB-7D3B-4107-9B84-995B05AB51C7}
+	EndGlobalSection
+EndGlobal

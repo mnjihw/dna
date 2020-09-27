@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "img2pdf", "img2pdf\img2pdf.csproj", "{792C0708-6DB0-4D11-A6C7-2144AFDFA181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{792C0708-6DB0-4D11-A6C7-2144AFDFA181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792C0708-6DB0-4D11-A6C7-2144AFDFA181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792C0708-6DB0-4D11-A6C7-2144AFDFA181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792C0708-6DB0-4D11-A6C7-2144AFDFA181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {519A5DF1-AACA-42CC-87A9-C683874ED8C1}
+	EndGlobalSection
+EndGlobal

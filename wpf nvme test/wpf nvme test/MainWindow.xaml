@@ -1,0 +1,19 @@
+﻿<Window x:Class="wpf_nvme_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_nvme_test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" VerticalAlignment="Top">
+            <Button Content="-" Width="50" Command="{Binding MinusCommand}" IsEnabled="{Binding MinusEnable}"/>
+            <TextBox Width="50" Background="#FF8F8A8A" Text="{Binding Number, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button Content="+" Width="50" Command="{Binding PlusCommand}" IsEnabled="{Binding PlusEnable}"/>
+        </ToolBar>
+        <TextBox Text="{Binding PageContent}"/>
+       
+    </DockPanel>
+    
+</Window>

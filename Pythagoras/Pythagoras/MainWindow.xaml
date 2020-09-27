@@ -1,0 +1,25 @@
+﻿<Window x:Class="Pythagoras.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pythagoras"
+        mc:Ignorable="d"
+        Title="Pythagoras" Height="350" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" >
+    <Canvas>
+        <Polygon Points="200,100 100,200 200,200 200,100" Stroke="Purple">
+            <Polygon.Fill>
+                <SolidColorBrush Color="Blue" Opacity="0.4"/>
+            </Polygon.Fill>
+        </Polygon>
+        <TextBox x:Name="hypotenuseTextBox" Canvas.Left="115" Canvas.Top="127" Width="35" KeyUp="TextBox_KeyUp" />
+        <TextBox x:Name="heightTextBox" Canvas.Left="205" Canvas.Top="145" Width="35" KeyUp="TextBox_KeyUp"/>
+        <TextBox x:Name="baseTextBox" Canvas.Left="135" Canvas.Top="205" Width="35" KeyUp="TextBox_KeyUp"/>
+        <TextBox x:Name="angleTextBox" Canvas.Left="125" Canvas.Top="178" Width="25" KeyUp="TextBox_KeyUp"/>
+        <TextBox x:Name="angleTextBox2" Canvas.Left="170" Canvas.Top="130" Width="25" KeyUp="TextBox_KeyUp"/>
+        <Button IsTabStop="False" Canvas.Left="250" Canvas.Top="200" Content="초기화" Click="Button_Click"/>
+        <TextBlock x:Name="textBlock" Canvas.Left="20" Canvas.Top="240"/>
+    </Canvas>
+</Window>
+
+    

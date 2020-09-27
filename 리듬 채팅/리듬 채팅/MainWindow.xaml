@@ -1,0 +1,47 @@
+﻿<Window x:Class="리듬_채팅.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:리듬_채팅"
+                xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" Height="600" Width="400" ResizeMode="CanMinimize" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="LightGreen" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Margin="0, 0, 15, 0" Foreground="Navy" Text="리듬 채팅" VerticalAlignment="Center" TextAlignment="Center" FontSize="16"/>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Padding="0" Width="25" Height="25" Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}" Click="MinimizeButton_Click">
+                <materialDesign:PackIcon Kind="WindowMinimize" Width="25" Height="25"/>
+            </Button>
+            <Button Padding="0" Width="25" Height="25" Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}" Click="CloseButton_Click">
+                <materialDesign:PackIcon Kind="WindowClose" Width="25" Height="25"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <ListBox x:Name="chatListBox" VerticalAlignment="Top" Background="White" Width="380" Height="450" >
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem" BasedOn="{StaticResource MaterialDesignListBoxItem}">
+                        <Setter Property="Height" Value="20"/>
+                        <Setter Property="Padding" Value="0"/>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+            <Separator Height="10" Background="Transparent"/>
+            <TextBox x:Name="chatInputTextBox" Width="240" materialDesign:HintAssist.Hint="채팅 입력" KeyDown="ChatInputTextBox_KeyDown" PreviewDragOver="ChatInputTextBox_PreviewDragOver" Drop="ChatInputTextBox_Drop"  AllowDrop="True"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="connectionStateTextBlock" Text="상태: 연결 안 됨"/>
+                <Separator Height="10" Background="Transparent"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <TextBox x:Name="ipInputTextBox" Width="200" materialDesign:HintAssist.Hint="연결할 IP 입력" KeyDown="IpInputTextBox_KeyDown"/>
+                <Button Padding="0" Content="연결" Width="40" x:Name="connectToServerButton" Click="ConnectToServerButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+        
+    </Grid>
+</Window>

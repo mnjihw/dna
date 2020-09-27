@@ -1,0 +1,174 @@
+﻿<Window x:Class="리듬_메이플_BGM_플레이어.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:리듬_메이플_BGM_플레이어"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:smtx="clr-namespace:ShowMeTheXAML;assembly=ShowMeTheXAML"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="리듬 메이플 BGM플레이어" Height="570" Width="330" ResizeMode="CanMinimize"
+        Loaded="Window_LoadedAsync" Closed="MainWindow_Closed"
+        BorderThickness="1" WindowStyle="None" WindowStartupLocation="CenterScreen"
+        x:Name="mainWindow">
+    <!--FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"-->
+
+    <Window.Resources>
+        <Storyboard x:Name="MenuOpen" x:Key="MenuOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="mainWindow">
+                <EasingDoubleKeyFrame KeyTime="0" Value="330"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.25" Value="550"/>
+            </DoubleAnimationUsingKeyFrames>
+            <local:GridLengthAnimation Storyboard.TargetName="collapsedGrid" Storyboard.TargetProperty="Width" From="0" To="230" Duration="0:0:0.25">
+            </local:GridLengthAnimation>
+
+
+        </Storyboard>
+        <Storyboard x:Name="MenuClose" x:Key="MenuClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="mainWindow">
+                <EasingDoubleKeyFrame KeyTime="0" Value="550"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.25" Value="330"/>
+            </DoubleAnimationUsingKeyFrames>
+            <local:GridLengthAnimation Storyboard.TargetName="collapsedGrid" Storyboard.TargetProperty="Width" From="230" To="0" Duration="0:0:0.25">
+            </local:GridLengthAnimation>
+        </Storyboard>
+    </Window.Resources>
+
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ToggleButton.Checked" SourceName="menuToggleButton">
+            <BeginStoryboard Storyboard="{StaticResource MenuOpen}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ToggleButton.Unchecked" SourceName="menuToggleButton">
+            <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
+        </EventTrigger>
+    </Window.Triggers>
+
+
+    <Grid Background="LightSteelBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="330"/>
+            <ColumnDefinition x:Name="collapsedGrid" Width="0"/>
+        </Grid.ColumnDefinitions>
+
+       
+        <TextBlock x:Name="titleBarTextBlock" Grid.Row="0" Grid.ColumnSpan="2" Margin="0, 0, 15, 0" Foreground="Navy" Text="리듬 메이플 BGM 플레이어" VerticalAlignment="Center" TextAlignment="Center" FontSize="16"/>
+        <materialDesign:PopupBox x:Name="menuPopupBox" Grid.Row="0" Grid.Column="0" PlacementMode="BottomAndAlignLeftEdges" StaysOpen="True" >
+            <StackPanel Width="160">
+                <Button x:Name="wzOpenButton" Content="wz 파일 직접 열기" Click="WzOpenButton_Click"/>
+                <Grid Margin="0">
+                    <Button Content="항상 위에 두기" Click="TopMostButton_Click"/>
+                    <ToggleButton x:Name="topMostToggleButton" Margin="0, 0, 3, 2" HorizontalAlignment="Right" Style="{DynamicResource MaterialDesignSwitchToggleButton}" Click="TopMostToggleButton_Click"/>
+                </Grid>
+                <Button Content="정보"/>
+            </StackPanel>
+        </materialDesign:PopupBox>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button x:Name="minimizeButton" Padding="0" Width="25" Height="25" Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}" Click="MinimizeButton_Click">
+                <materialDesign:PackIcon Kind="WindowMinimize" Width="25" Height="25"/>
+            </Button>
+            <materialDesign:PopupBox x:Name="closePopupBox" PlacementMode="BottomAndAlignRightEdges">
+                <materialDesign:PopupBox.ToggleContent>
+                    <materialDesign:PackIcon Kind="Close" Width="25" Height="25"/>
+                </materialDesign:PopupBox.ToggleContent>
+                <StackPanel Width="140">
+                    <Button Content="종료" Click="CloseButton_Click"/>
+                    <Button Content="트레이로 숨기기"/>
+                </StackPanel>
+            </materialDesign:PopupBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <ToggleButton Margin="4, 0" Foreground="Navy" HorizontalAlignment="Right" x:Name="menuToggleButton" Style="{DynamicResource MaterialDesignHamburgerToggleButton}" />
+            <ListView x:Name="listView1" Height="310" ScrollViewer.HorizontalScrollBarVisibility="Auto" Foreground="Black" MouseDoubleClick="ListView1_MouseDoubleClick" KeyDown="ListView1_KeyDown">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="50" DisplayMemberBinding="{Binding Number}">
+                            <GridViewColumnHeader Content="No" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                        <GridViewColumn Width="150" DisplayMemberBinding="{Binding Title}">
+                            <GridViewColumnHeader Content="제목" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                        <GridViewColumn Width="150" DisplayMemberBinding="{Binding Comment}">
+                            <GridViewColumnHeader Content="설명" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                        <GridViewColumn Width="150" DisplayMemberBinding="{Binding Location}">
+                            <GridViewColumnHeader Content="위치" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Margin="40, 10" Text="플레이리스트" FontSize="13"/>
+            <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="#FF50B60A" Height="280" x:Name="playListListView" MouseDoubleClick="PlayListListView_MouseDoubleClick" MouseRightButtonUp="PlayListListView_MouseRightButtonUp" KeyDown="PlayListListView_KeyDown" PreviewMouseLeftButtonDown="PlayListListView_PreviewMouseLeftButtonDown" PreviewMouseMove="PlayListListView_PreviewMouseMove" Drop="PlayListListView_Drop" AllowDrop="True" DragOver="PlayListListView_DragOver">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="50" DisplayMemberBinding="{Binding Number}">
+                            <GridViewColumnHeader Visibility="Collapsed" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                        <GridViewColumn Width="250" DisplayMemberBinding="{Binding Title}">
+                            <GridViewColumnHeader Visibility="Collapsed" IsHitTestVisible="False"/>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <TextBlock Margin="0, 6, 0, 0" HorizontalAlignment="Center" Foreground="Green" x:Name="titleTextBlock" TextAlignment="Center"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="10, 7, 0, 0" x:Name="currentTimeTextBlock" Text="00:00" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="42"/>
+                <Slider Margin="0, 0, 0, 0" Height="20" Width="223" IsMoveToPointEnabled="True" x:Name="playbackSlider" />
+                <TextBlock Margin="7, 7, 0, 0" x:Name="totalLengthTextBlock" Text="00:00" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="42" RenderTransformOrigin="0.487,0.542" Foreground="ForestGreen"/>
+            </StackPanel>
+        </StackPanel>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="removeFromPlayListButton" Padding="0" Width="35" Height="35" Margin="10, 3" Click="RemoveFromPlayListButton_Click"> 
+            <materialDesign:PackIcon Width="25" Height="25" Kind="PlaylistRemove"/>     
+        </Button>
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal">
+            <Button Margin="10, 0, 5, 0" x:Name="previousButton" Height="35" Width="35" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Click="PreviousOrNextButton_Click" >
+                <materialDesign:PackIcon Width="25" Height="25" Kind="PreviousTitle"/>
+            </Button>
+            <Button Margin="5, 0" x:Name="playPauseButton" Height="35" Width="35" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Click="PlayPauseButton_Click" >
+                <materialDesign:PackIcon Width="25" Height="25" x:Name="playPauseIcon" Kind="Play"/>
+            </Button>
+            <Button Margin="5, 0" x:Name="nextButton" Height="35" Width="35" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Click="PreviousOrNextButton_Click" >
+                <materialDesign:PackIcon Width="25" Height="25" Kind="NextTitle"/>
+            </Button>
+            <Separator Width="5" Background="Transparent"/>
+            <Image x:Name="playbackLoopOptionImage" Width="25" Height="25" Source="pack://application:,,,/Images/repeatall.png" MouseLeftButtonUp="PlaybackLoopOptionImage_MouseLeftButtonUp"/>
+            <Separator Width="10" Background="Transparent"/>
+            <Image x:Name="randomOptionImage" Width="22" Height="22" Source="pack://application:,,,/Images/shuffle.png" MouseLeftButtonUp="RandomOptionImage_MouseLeftButtonUp"/>
+            <Button x:Name="addToPlayListButton" Margin="10, 0" Padding="0" Width="35" Height="35" HorizontalAlignment="Left" Click="AddToPlayListButton_Click">
+                <materialDesign:PackIcon Width="25" Height="25" Kind="PlaylistAdd"/>
+            </Button>
+            <Button x:Name="downloadButton" Margin="5, 0" Padding="0" Width="35" Height="35" HorizontalAlignment="Left" Click="DownloadButton_ClickAsync">
+                <materialDesign:PackIcon Width="25" Height="25" Kind="Download"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal">
+            <Button Margin="10, 0, 7, 0" x:Name="volumeMuteButton" Padding="0" Width="20" Height="20" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="VolumeMuteButton_Click">
+                <materialDesign:PackIcon x:Name="volumeMuteIcon" Kind="VolumeHigh"/>
+            </Button>
+            <Slider Margin="0, 13" ValueChanged="VolumeSlider_ValueChanged" Value="1" IsMoveToPointEnabled="True" Maximum="1" HorizontalAlignment="Left" Width="90" x:Name="volumeSlider"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="0" Orientation="Horizontal">
+            <TextBox x:Name="searchTextBox" materialDesign:HintAssist.Hint="검색" Width="257" Height="35" Style="{StaticResource MaterialDesignFloatingHintTextBox}" KeyUp="SearchTextBox_KeyUp" TextChanged="SearchTextBox_TextChanged"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

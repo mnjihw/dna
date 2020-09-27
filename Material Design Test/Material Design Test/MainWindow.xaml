@@ -1,0 +1,27 @@
+﻿<Window x:Class="Material_Design_Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Material_Design_Test"
+        mc:Ignorable="d"
+        Title="Material Design Test" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="listView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="100">
+                        <GridViewColumnHeader Content="코인 이름" IsHitTestVisible="False"/>
+                    </GridViewColumn>
+                    <GridViewColumn Width="100">
+                        <GridViewColumnHeader Content="빗썸" IsHitTestVisible="False"/>
+                    </GridViewColumn>
+                    <GridViewColumn Width="100">
+                        <GridViewColumnHeader Content="업비트" IsHitTestVisible="False"/>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

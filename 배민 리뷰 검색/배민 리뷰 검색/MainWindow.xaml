@@ -1,0 +1,28 @@
+﻿<Window x:Class="배민_리뷰_검색.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:배민_리뷰_검색"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="배민 리뷰 검색" Height="800" Width="1400" >
+
+    
+    <StackPanel>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox TabIndex="0" Width="150" Height="30" x:Name="restaurantTextBox" materialDesign:HintAssist.Hint="음식점 이름" KeyUp="RestaurantTextBox_KeyUp"/>
+            <Button Padding="0" Width="100" Height="50" Content="음식점 검색" Click="RestaurantSearchButton_Click" x:Name="restaurantSearchButton"/>
+        </StackPanel>
+        <ListBox TabIndex="1" x:Name="restaurantListBox" Width="300"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox TabIndex="2" Width="100" Height="30" x:Name="menuTextBox" materialDesign:HintAssist.Hint="메뉴" KeyUp="MenuTextBox_KeyUp"/>
+            <Button Padding="0" Width="100" Height="50" Content="리뷰 검색" Click="ReviewSearchButton_Click" x:Name="reviewSearchButton"/>
+        </StackPanel>
+        <TextBlock Visibility="Hidden" x:Name="notificationTextBlock" HorizontalAlignment="Center"/>
+
+        <WrapPanel x:Name="wrapPanel"/>
+    </StackPanel>
+</Window>

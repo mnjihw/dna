@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "배민 리뷰 검색", "배민 리뷰 검색\배민 리뷰 검색.csproj", "{088895E6-7A80-42DD-B8BF-C607EBC985F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088895E6-7A80-42DD-B8BF-C607EBC985F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088895E6-7A80-42DD-B8BF-C607EBC985F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088895E6-7A80-42DD-B8BF-C607EBC985F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088895E6-7A80-42DD-B8BF-C607EBC985F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52B8EC95-6D0E-4AFD-B42D-4F337D9CD319}
+	EndGlobalSection
+EndGlobal

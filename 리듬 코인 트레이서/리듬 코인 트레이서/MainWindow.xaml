@@ -1,0 +1,87 @@
+﻿<Window x:Class="리듬_코인_트레이서.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:리듬_코인_트레이서"
+        mc:Ignorable="d"
+        Title="리듬 코인 트레이서" Height="800" Width="1100" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+
+    <Grid>
+        <StackPanel>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBox TextChanged="TextBox_TextChanged" Width="100" HorizontalAlignment="Left"/>
+                <GroupBox Header="기준 거래소">
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Content="바이낸스" IsChecked="True" Click="RadioButton_Click" Tag="Binance"/>
+                        <Separator Width="5" Visibility="Hidden"/>
+                        <RadioButton Content="빗썸" Click="RadioButton_Click" Tag="Bithumb"/>
+                        <Separator Width="5" Visibility="Hidden"/>
+                        <RadioButton Content="게이트" Click="RadioButton_Click" Tag="Gateio"/>
+                        <Separator Width="5" Visibility="Hidden"/>
+                        <RadioButton Content="후오비" Click="RadioButton_Click" Tag="Huobi"/>
+                        <Separator Width="5" Visibility="Hidden"/>
+                        <RadioButton Content="업비트" Click="RadioButton_Click" Tag="Upbit"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            <ListView x:Name="listView" Height="700" GridViewColumnHeader.Click="GridViewColumnHeader_Click">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="코인" Width="80" x:Name="nameHeader">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="바이낸스" Width="180">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Right" Text="{Binding Binance}" Background="{Binding ColorOfBinance}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="빗썸" Width="180">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Right" Text="{Binding Bithumb}" Background="{Binding ColorOfBithumb}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="게이트" Width="180">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Right" Text="{Binding Gateio}" Background="{Binding ColorOfGateio}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="후오비" Width="180">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Right" Text="{Binding Huobi}" Background="{Binding ColorOfHuobi}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="업비트" Width="180">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Right" Text="{Binding Upbit}" Background="{Binding ColorOfUpbit}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+                
+
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Window>
