@@ -20,21 +20,23 @@ namespace 리듬_DC_콘솔_봇
     public sealed class DCManager
     {
 
-        private static readonly Lazy<DCManager> instanceHolder = new Lazy<DCManager>(() => new DCManager());
-        public static DCManager Instance => instanceHolder.Value;
+        private static Lazy<DCManager> InstanceHolder { get; } = new Lazy<DCManager>(() => new DCManager());
+        public static DCManager Instance => InstanceHolder.Value;
 
-        private static readonly CookieContainer cookieContainer = new CookieContainer();
-        private static readonly HttpClientHandler httpClientHandler = new HttpClientHandler
+        private static CookieContainer CookieContainer { get; } = new CookieContainer();
+        private static HttpClientHandler HttpClientHandler { get; } = new HttpClientHandler
         {
-            CookieContainer = cookieContainer,
+            CookieContainer = CookieContainer,
             //UseProxy = true,
             //Proxy = new WebProxy("158.69.59.171:3128")
         };
-        private static readonly HttpClient httpClient = new HttpClient(httpClientHandler) { Timeout = TimeSpan.FromSeconds(10) };
+        private static HttpClient HttpClient { get; } = new HttpClient(HttpClientHandler) { Timeout = TimeSpan.FromSeconds(10) };
+        private static HtmlDocument HtmlDocument { get; } = new HtmlDocument();
 
-        private bool? IsMinorGallery { get; set; }
+        private bool IsMinorGallery { get; set; }
         private readonly List<(string, int)> imageBlacklist = new List<(string, int)>();
         private readonly Dictionary<string, string> testValues = new Dictionary<string, string>();
+        private string UserAgent => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.63";
 
 
         private DCManager()
@@ -57,18 +59,16 @@ namespace 리듬_DC_콘솔_봇
         }
 
 
-        public async Task<int> GetArticleNumber(string galleryName, bool isLatest)
+        public async Task<int> GetLatestArticleNumber(string galleryName)
         {
             string result = default;
 
-            if (!IsMinorGallery.HasValue)
-                IsMinorGallery = false;
 
             while (true)
             {
                 try
                 {
-                    result = await httpClient.GetStringAsync($"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/lists?id={galleryName}");
+                    result = await HttpClient.GetStringAsync($"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/lists?id={galleryName}");
 
                     if (string.IsNullOrWhiteSpace(result))
                     {
@@ -96,34 +96,29 @@ namespace 리듬_DC_콘솔_봇
 
             
 
-            HtmlDocument htmlDocument = new HtmlDocument();
-            htmlDocument.LoadHtml(result);
+            
+            HtmlDocument.LoadHtml(result);
 
 
-            if (isLatest)
-            {
-                if (htmlDocument.DocumentNode.SelectSingleNode("//td[@class='gall_subject']") != null)
-                    return int.Parse(htmlDocument.DocumentNode.SelectNodes("//td[@class='gall_subject']").First(node => node.InnerText != "공지" && node.InnerText != "이슈").SelectSingleNode("../td[@class='gall_num']").InnerText);
-                else
-                    return int.Parse(htmlDocument.DocumentNode.SelectNodes("//td[@class='gall_num']").First(node => int.TryParse(node.InnerText, out int parseResult)).InnerText);
-            }
+            
+            if (HtmlDocument.DocumentNode.SelectSingleNode("//td[@class='gall_subject']") != null)
+                return int.Parse(HtmlDocument.DocumentNode.SelectNodes("//td[@class='gall_subject']").First(node => node.InnerText != "공지" && node.InnerText != "이슈").SelectSingleNode("../td[@class='gall_num']").InnerText);
             else
-                return int.Parse(htmlDocument.DocumentNode.SelectNodes("//td[@class='gall_num']").Last().InnerText);
+                return int.Parse(HtmlDocument.DocumentNode.SelectNodes("//td[@class='gall_num']").First(node => int.TryParse(node.InnerText, out int parseResult)).InnerText);
+            
+            
         }
 
         public async Task WriteComment(string galleryName, string articleNumber, string nickname, string password, string content)
         {
             string result = default;
-            var htmlDocument = new HtmlDocument();
 
-            httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Whale/1.4.64.6 Safari/537.36");
+            HttpClient.DefaultRequestHeaders.Add("User-Agent", UserAgent);
 
-            if (!IsMinorGallery.HasValue)
-                IsMinorGallery = false;
 
             for(int i = 0; i < 2; ++i)
             {
-                var responseMessage = await httpClient.GetAsync($"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/view?id={galleryName}&no={articleNumber}");
+                var responseMessage = await HttpClient.GetAsync($"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/view?id={galleryName}&no={articleNumber}");
                 result = await responseMessage.Content.ReadAsStringAsync();
 
                 if (responseMessage.StatusCode == HttpStatusCode.NotFound)
@@ -143,16 +138,17 @@ namespace 리듬_DC_콘솔_봇
                 }
                 else
                     break;
-            } 
+            }
 
-            htmlDocument.LoadHtml(result);
-            string serviceCode = htmlDocument.DocumentNode.SelectSingleNode("//input[@name='service_code']").Attributes["value"].Value;
-
+            HtmlDocument.LoadHtml(result);
+            string serviceCode = HtmlDocument.DocumentNode.SelectSingleNode("//input[@name='service_code']").Attributes["value"].Value;
+            
             var match = Regex.Match(result, @"_d\('(.+)'\)");
             if (!match.Success)
                 throw new Exception("service_code failed");
 
-            string[] key = Decode(match.Groups[1].Value, true).Split(',');
+            //string[] key = Decode(match.Groups[1].Value, true).Split(',');
+            string[] key = Decode("RMQEPMQEQ/u4d+ntdMSHP+UtQgq6PM=wQTuEd+QtQgQwPM0ud4uwdSKK", true).Split(',');
 
             string code = default;
 
@@ -160,14 +156,14 @@ namespace 리듬_DC_콘솔_봇
                 code += Encoding.Default.GetString(new[] { (byte)(2 * (Convert.ToDouble(key[i]) - i - 1) / (12 - i)) });
 
             for (int i = 6; i <= 9; ++i)
-                testValues[$"check_{i}"] = htmlDocument.DocumentNode.SelectSingleNode($"//input[@name='check_{i}']").Attributes["value"].Value;
-            testValues["cur_t"] = htmlDocument.DocumentNode.SelectSingleNode("//input[@name='cur_t']").Attributes["value"].Value;
+                testValues[$"check_{i}"] = HtmlDocument.DocumentNode.SelectSingleNode($"//input[@name='check_{i}']").Attributes["value"].Value;
+            testValues["cur_t"] = HtmlDocument.DocumentNode.SelectSingleNode("//input[@name='cur_t']").Attributes["value"].Value;
             testValues["service_code"] = Regex.Replace(serviceCode, ".{10}$", code);
 
-            httpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-            httpClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}&page=1");
-            httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Whale/1.4.64.6 Safari/537.36");
-            httpClient.DefaultRequestHeaders.Add("X-Requested-With", "XMLHttpRequest");
+            HttpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+            HttpClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}&page=1");
+            HttpClient.DefaultRequestHeaders.Add("User-Agent", UserAgent);
+            HttpClient.DefaultRequestHeaders.Add("X-Requested-With", "XMLHttpRequest");
 
 
             var formData = new Dictionary<string, string>
@@ -187,9 +183,9 @@ namespace 리듬_DC_콘솔_봇
                 ["t_vch2"] = "",
                 ["service_code"] = testValues["service_code"]
             };
+            return; /////////////////
 
-
-            result = await (await httpClient.PostAsync("https://gall.dcinside.com/board/forms/comment_submit", new FormUrlEncodedContent(formData))).Content.ReadAsStringAsync();
+            result = await (await HttpClient.PostAsync("https://gall.dcinside.com/board/forms/comment_submit", new FormUrlEncodedContent(formData))).Content.ReadAsStringAsync();
             
             if (result.Contains("False"))
                 throw new Exception("commenting failed");
@@ -238,12 +234,12 @@ namespace 리듬_DC_콘솔_봇
         {
             HttpResponseMessage responseMessage = null;
 
-            httpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8"); //컨텐츠타입세팅이안됨
-            httpClient.DefaultRequestHeaders.Add("Host", "gall.dcinside.com");
-            httpClient.DefaultRequestHeaders.Add("Origin", "https://gall.dcinside.com");
-            httpClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}&page=1");
-            httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Whale/1.4.64.6 Safari/537.36");
-            httpClient.DefaultRequestHeaders.Add("X-Requested-With", "XMLHttpRequest");
+            HttpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8"); //컨텐츠타입세팅이안됨
+            HttpClient.DefaultRequestHeaders.Add("Host", "gall.dcinside.com");
+            HttpClient.DefaultRequestHeaders.Add("Origin", "https://gall.dcinside.com");
+            HttpClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}&page=1");
+            HttpClient.DefaultRequestHeaders.Add("User-Agent", UserAgent);
+            HttpClient.DefaultRequestHeaders.Add("X-Requested-With", "XMLHttpRequest");
 
             string nickname = default, content = default;
             var comments = new List<string>();
@@ -260,13 +256,16 @@ namespace 리듬_DC_콘솔_봇
 
             try
             {
-                responseMessage = await httpClient.PostAsync("https://gall.dcinside.com/board/comment/", new FormUrlEncodedContent(formData));
+                responseMessage = await HttpClient.PostAsync("https://gall.dcinside.com/board/comment/", new FormUrlEncodedContent(formData));
             }
             catch
             {
             }
 
             var result = await responseMessage.Content.ReadAsStringAsync();
+
+
+
 
             foreach (var commentsToken in JObject.Parse(result)["comments"].Children())
             {
@@ -301,7 +300,7 @@ namespace 리듬_DC_콘솔_봇
 
                 try
                 {
-                    responseMessage = await httpClient.GetAsync($"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}");
+                    responseMessage = await HttpClient.GetAsync($"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}");
                     result = await responseMessage.Content.ReadAsStringAsync();
 
                     if (string.IsNullOrWhiteSpace(result))
@@ -327,19 +326,19 @@ namespace 리듬_DC_콘솔_봇
             }
 
 
-            HtmlDocument htmlDocument = new HtmlDocument();
 
-            htmlDocument.LoadHtml(result);
 
-            title = htmlDocument.DocumentNode.SelectSingleNode(@"//span[@class='title_subject']").InnerText;
-            nickname = htmlDocument.DocumentNode.SelectSingleNode("//div[@class='gall_writer ub-writer']").Attributes["data-nick"].Value;
+            HtmlDocument.LoadHtml(result);
 
-            testValues["e_s_n_o"] = htmlDocument.DocumentNode.SelectSingleNode("//input[@id='e_s_n_o']").Attributes["value"].Value;
+            title = HtmlDocument.DocumentNode.SelectSingleNode(@"//span[@class='title_subject']").InnerText;
+            nickname = HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='gall_writer ub-writer']").Attributes["data-nick"].Value;
 
-            HtmlNode htmlNode = htmlDocument.DocumentNode.SelectSingleNode("//div[@class='writing_view_box']/div[@style='overflow:hidden;']");
+            testValues["e_s_n_o"] = HtmlDocument.DocumentNode.SelectSingleNode("//input[@id='e_s_n_o']").Attributes["value"].Value;
+
+            HtmlNode htmlNode = HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='writing_view_box']/div[contains(@style, 'overflow')]");
 
             content = htmlNode.InnerHtml;
-            var imageNodes = htmlDocument.DocumentNode.SelectNodes("//div[@class='appending_file_box']/ul[@class='appending_file']//a");
+            var imageNodes = HtmlDocument.DocumentNode.SelectNodes("//div[@class='appending_file_box']/ul[@class='appending_file']//a");
 
             if (savesImages && imageNodes != null)
             {
@@ -370,8 +369,8 @@ namespace 리듬_DC_콘솔_봇
                     HttpClientHandler imageDownloadClientHandler = new HttpClientHandler() { AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate };
                     HttpClient imageDownloadClient = new HttpClient(imageDownloadClientHandler) { Timeout = TimeSpan.FromSeconds(10) };
 
-                    imageDownloadClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Whale/1.4.64.6 Safari/537.36");
-                    imageDownloadClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery.Value ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}");
+                    imageDownloadClient.DefaultRequestHeaders.Add("User-Agent", UserAgent);
+                    imageDownloadClient.DefaultRequestHeaders.Add("Referer", $"https://gall.dcinside.com/{(IsMinorGallery ? "mgallery/" : "")}board/view/?id={galleryName}&no={articleNumber}");
                     imageDownloadClient.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
                     imageDownloadClient.DefaultRequestHeaders.Add("Accept-Encoding", "gzip, deflate, br");
                     imageDownloadClient.DefaultRequestHeaders.Add("Accept-Language", "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7");

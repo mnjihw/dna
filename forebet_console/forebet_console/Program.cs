@@ -25,36 +25,6 @@ namespace forebet_console
         static async Task Main()
         {
             var random = new Random();
-
-
-            Stopwatch s = new Stopwatch();
-            s.Start();
-            var count = 0;
-            var blockCount = 0;
-            while (true)
-            {
-                for (int i = 0; i < 20; ++i)
-                {
-                    string a = null;
-                    try
-                    {
-                        a = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={11}&ord=0");
-                    }
-                    catch(HttpRequestException e)
-                    {
-                        Console.WriteLine(e);
-                    }
-                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {a?.Length} {s.ElapsedMilliseconds / 1000}초동안 {++count}번 요청했고 {blockCount}번 차단됨");
-                    if (a?.Length <= 20) //예외 뜨면 a에 null들어감
-                    {
-                        ++blockCount;
-                        await Task.Delay(TimeSpan.FromMinutes(5));
-                    }
-                    await Task.Delay(1000 + random.Next() % 2000);
-                }
-                await Task.Delay(TimeSpan.FromSeconds(180));
-            }
-            return;
             var matchDataFromForebet = new List<MatchData>();
             var matchDataFromDatabase = new List<MatchData>();
             var htmlDocument = new HtmlDocument();
@@ -64,16 +34,26 @@ namespace forebet_console
             await connection.OpenAsync();
             command.CommandTimeout = 500;
 
-            
-            
+
+            int blockedCount = 0;
             try
             {
                 while (true)
                 {
+                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} 크롤링 시작");
                     matchDataFromForebet.Clear();
                     matchDataFromDatabase.Clear();
 
-                    var result = await HttpClient.GetStringAsync("https://www.forebet.com/en/football-predictions");
+                    string result = default;
+                    try
+                    { 
+                        result = await HttpClient.GetStringAsync("https://www.forebet.com/en/football-predictions");
+                    }
+                    catch(HttpRequestException)
+                    {
+                        await Task.Delay(TimeSpan.FromSeconds(10));
+                        continue;
+                    }
                     htmlDocument.LoadHtml(result);
                     var nodes = htmlDocument.DocumentNode.SelectNodes("//table[@class='schema tblen']/tr[starts-with(@class, 'tr')]");
 
@@ -98,11 +78,22 @@ namespace forebet_console
 
                         while (string.IsNullOrWhiteSpace(result = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={index}&ord=0")))
                         {
-                            await Task.Delay(500); //빈 문자열 리턴되면 0.5초 쉬고 계속 시도
-                            Console.WriteLine("빈거 옴"); //이거 빈거 오는 경우 잦음
+                            await Task.Delay(TimeSpan.FromMinutes(5)); //빈 문자열 리턴되면 5분 쉬고 계속 시도
+                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {++blockedCount}번 차단됨");
                         }
 
-                        var json = JsonDocument.Parse(result);
+                        JsonDocument json = default;
+                        try
+                        {
+                            json = JsonDocument.Parse(result);
+                        }
+                        catch (JsonException e) 
+                        {
+                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {e}");
+                            var a = result;
+                            Console.WriteLine(a);
+                        }
+
 
                         foreach (var match in json.RootElement.EnumerateArray())
                         {
@@ -117,17 +108,26 @@ namespace forebet_console
                             };
                             matchDataFromForebet.Add(data);
                         }
-                        await Task.Delay(400);
+                        await Task.Delay(1000 + random.Next() % 2000);
 
-                        result = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={++index}&test=1");
+                        try
+                        {
+                            result = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={++index}&test=1");
+                        }
+                        catch(HttpRequestException)
+                        {
+                            await Task.Delay(TimeSpan.FromSeconds(10));
+                            continue;
+                        }
                         if (string.IsNullOrWhiteSpace(result))
                         {
-                            Console.WriteLine("빈거 옴 뭐지");
+                            await Task.Delay(TimeSpan.FromMinutes(5));
+                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {++blockedCount}번 차단됨");
                         }
-                        await Task.Delay(400);
+                        await Task.Delay(1000 + random.Next() % 2000);
 
                     } while (result == "1");
-                    Console.WriteLine($"{DateTime.Now} 파싱 끝");
+                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} 크롤링 끝");
 
 
                     command.CommandText = $"SELECT home_title, away_title, home_odds, draw_odds, away_odds from sport_match";
@@ -165,7 +165,8 @@ namespace forebet_console
                     command.Transaction = transaction;
 
 
-                    
+                    int updatedCount = 0;
+
                     foreach (var changedData in intersectedData)
                     {
                         var title = $"{changedData.HomeTeam}-{changedData.AwayTeam}";
@@ -179,12 +180,15 @@ namespace forebet_console
                             command.Parameters["@awayOdds"].Value = changedData.AwayOdds;
                             command.Parameters["@registrationDate"].Value = DateTime.Now.FormatAsDatebaseDateTime();
                             await command.ExecuteNonQueryAsync();
-                            Console.WriteLine($"{changedData} UPDATE 완료");
+                            ++updatedCount;
+                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {oldData}->{changedData} UPDATE함");
                         }
                     }
-                    await transaction.CommitAsync();
 
-                    
+                    await transaction.CommitAsync();
+                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {updatedCount}개 UPDATE 완료");
+
+
                     var newData = matchDataFromForebet.Except(matchDataFromDatabase, new MatchDataComparer());
 
                     command.Parameters.Clear();
@@ -201,6 +205,7 @@ namespace forebet_console
                     transaction = await connection.BeginTransactionAsync();
                     command.Transaction = transaction;
 
+                    int insertedCount = 0;
                     foreach(var data in newData)
                     {
                         
@@ -215,23 +220,22 @@ namespace forebet_console
 
                         if (await command.ExecuteNonQueryAsync() == 0)
                         {
-                            Console.WriteLine($"{DateTime.Now} {data} 머냐 인서트도 실패");
+                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {data} 머냐 인서트 실패");
                         }
-                        Console.WriteLine($"{data} INSERT 완료");
-                       
 
+                        ++insertedCount;
                     }
                     await transaction.CommitAsync();
-                    Console.WriteLine($"{DateTime.Now} 인서트 끝났고 30초 쉼");
+                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {insertedCount}개 INSERT 완료 3분 쉼");
                     
-                    await Task.Delay(TimeSpan.FromSeconds(30));
+                    await Task.Delay(TimeSpan.FromMinutes(3));
                     
                 }
 
             }
             catch(Exception e)
             {
-                Console.WriteLine(e);
+                 Console.WriteLine(e);
             }
         }
     }

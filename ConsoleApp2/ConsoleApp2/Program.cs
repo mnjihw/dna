@@ -24,6 +24,7 @@ using System.ComponentModel.Design;
 using System.Web;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
+using System.Security.Principal;
 
 namespace ConsoleApp2
 {
@@ -35,14 +36,16 @@ namespace ConsoleApp2
     class Program
     {
         private static HttpClient Client { get; } = new HttpClient();
-        [DllImport("user32.dll")]
-        public static extern IntPtr FindWindow(string className, string windowName);
+
+
 
         static async Task Main()
         {
+          
+            return;
             string result;
 
-            
+
             Client.DefaultRequestHeaders.Add("Authorization", "bearer guest");
             const string restaurantId = "10759827";
             const int limit = 50;
@@ -91,7 +94,7 @@ namespace ConsoleApp2
 
 
             return;
-      
+
             var edgeOptions = new EdgeOptions
             {
                 UseChromium = true,
@@ -104,7 +107,7 @@ namespace ConsoleApp2
             {
                 Url = "https://music.youtube.com"
             };
-            driver.Navigate(); 
+            driver.Navigate();
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(300));
 
             #region Login
@@ -132,7 +135,7 @@ namespace ConsoleApp2
             wait.Until(d => d.FindElement(By.XPath("//*[@id='progress']/..")).GetAttribute("hidden"));
             var files = Directory.GetFiles(@"D:\모든 파일\음악");
 
-            for(int i = 242; i < files.Length; ++i)
+            for (int i = 242; i < files.Length; ++i)
             {
                 var match = Regex.Match(files[i].Split('\\')[^1].Replace(".mp3", ""), @".+-\d{2}-([^-]+)");
 
@@ -144,7 +147,7 @@ namespace ConsoleApp2
 
                     input.SendKeys(match.Groups[1].Value);
                     input.SendKeys(Keys.Enter);
-                     
+
                     wait.Until(d => d.FindElement(By.XPath("//*[@id='progress']/..")).GetAttribute("hidden"));
 
 
@@ -175,12 +178,12 @@ namespace ConsoleApp2
             }
 
 
-           
-            
+
+
             Console.ReadLine();
         }
     }
-      
+
 }
 
 

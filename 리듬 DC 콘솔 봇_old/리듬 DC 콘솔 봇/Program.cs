@@ -9,27 +9,32 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Collections.Immutable;
 using System.Collections.ObjectModel;
+using System.Buffers.Text;
 
 namespace 리듬_DC_콘솔_봇
 {
 
     class Program
     {
+      
         static async Task Main(string[] args)
-        {     
+        {
+            
             Console.Title = "리듬 DC 콘솔 봇";
 
             DCManager dc = DCManager.Instance;
+            await dc.WriteComment("game_nintendo", "504671", "dd", "0210", "gd");
+            return;
             var galleryNames = new Dictionary<string, string>()
             {
                 ["프갤"] = "programming",
                 ["야갤"] = "baseball_new8",
-                ["슻갤"] = "nintendoswitch",
+                ["닌갤"] = "game_nintendo",
                 ["시갤"] = "watch",
                 ["포갤"] = "pokemon",
                 ["알갤"] = "coin",
             };
-
+            
             (string nickname, string title, string content) result;
             string galleryName = galleryNames["프갤"];
 
@@ -38,7 +43,7 @@ namespace 리듬_DC_콘솔_봇
 
 #if !민석이
             int i = 0;
-            int number = await dc.GetArticleNumber(galleryName, true);
+            int number = await dc.GetLatestArticleNumber(galleryName);
             
             while (true)
             {
@@ -46,7 +51,7 @@ namespace 리듬_DC_콘솔_봇
                 if (++i == 40)
                 {
                     i = 0;
-                    number = await dc.GetArticleNumber(galleryName, true);
+                    number = await dc.GetLatestArticleNumber(galleryName);
 
                 }
                 try
@@ -54,6 +59,9 @@ namespace 리듬_DC_콘솔_봇
                     var abc = await dc.ParseArticle(galleryName, number--, false);
                     if (abc == default)
                         continue;
+                    var comments = await dc.GetComments(galleryName, number + 1);
+
+
                     var a = OrthographyChecker.Check(abc.title);
                     if (!string.IsNullOrEmpty(a))
                     {
