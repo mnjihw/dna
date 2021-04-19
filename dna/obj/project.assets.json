@@ -1144,31 +1144,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mnjihw\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/0eun/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\dna.csproj",
+      "projectUniqueName": "/Users/0eun/Documents/Projects/dna/dna/dna.csproj",
       "projectName": "dna",
-      "projectPath": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\dna.csproj",
-      "packagesPath": "C:\\Users\\mnjihw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\obj\\",
+      "projectPath": "/Users/0eun/Documents/Projects/dna/dna/dna.csproj",
+      "packagesPath": "/Users/0eun/.nuget/packages/",
+      "outputPath": "/Users/0eun/Documents/Projects/dna/dna/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mnjihw\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/0eun/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1214,7 +1207,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.2, 5.0.2]"
+            "version": "[5.0.5, 5.0.5]"
           }
         ],
         "frameworkReferences": {
@@ -1222,7 +1215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
