@@ -1,10 +1,13 @@
 ﻿@page "/homepage"
 
-<h1>Counter</h1>
+<h1>개노답</h1>
+
+<img src= "./dnaHomepageImg.jpg" />
 
 <p>Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="decrementCount">Click you</button>
 
 @code {
     private int currentCount = 0;
@@ -13,4 +16,9 @@
     {
         currentCount++;
     }
+    private void decrementCount()
+    {
+        currentCount--;
+    }
 }
+    
