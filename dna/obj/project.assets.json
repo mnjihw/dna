@@ -1144,25 +1144,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mnjihw\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Yong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\dna.csproj",
+      "projectUniqueName": "D:\\dnaProject\\dna\\dna\\dna.csproj",
       "projectName": "dna",
-      "projectPath": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\dna.csproj",
-      "packagesPath": "C:\\Users\\mnjihw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnjihw\\Documents\\Visual Studio 2019\\Projects\\dna\\dna\\obj\\",
+      "projectPath": "D:\\dnaProject\\dna\\dna\\dna.csproj",
+      "packagesPath": "C:\\Users\\Yong\\.nuget\\packages\\",
+      "outputPath": "D:\\dnaProject\\dna\\dna\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mnjihw\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Yong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
