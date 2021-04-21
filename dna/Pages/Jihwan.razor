@@ -1,15 +1,18 @@
 ﻿@page "/jihwan"
 
-@inject HttpClient Http
+@inject HttpClient HttpClient
 
 <h3>Jihwan</h3>
+@Content
+
 @code {
 
+    private string Content { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        Console.WriteLine("GD");
-        //var result = await Http.GetStringAsync("https://www.naver.com");
-        //Console.WriteLine(result);
+
+        var result = await HttpClient.GetStringAsync("https://www.naver.com");
+        Content = result;
     }
 
 }
