@@ -1,18 +1,36 @@
 ﻿@page "/jihwan"
+<h3>Jihwan</h3>
 
 @inject HttpClient HttpClient
-
-<h3>Jihwan</h3>
-@Content
+@((MarkupString)Content)
 
 @code {
 
     private string Content { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
+        @*var result = await HttpClient.GetStringAsync("https://www.naver.com");
+            Content = result;*@
+        var list = new List<(int, int, int)>();
 
-        var result = await HttpClient.GetStringAsync("https://www.naver.com");
-        Content = result;
+        for (int i = 2; i <= 9; ++i)
+        {
+            for (int j = 1; j <= 9; ++j)
+            {
+                list.Add((i, j, i * j));
+            }
+            list.Add((0, 0, 0));
+        }
+        foreach (var tuple in list)
+        {
+
+            if (tuple == (0, 0, 0))
+                Content += "<br/>";
+            else
+                Content += (MarkupString)$"{tuple.Item1} * {tuple.Item2} = {tuple.Item3}<br/>";
+        }
+
     }
 
 }
