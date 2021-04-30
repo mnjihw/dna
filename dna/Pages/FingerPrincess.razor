@@ -1,4 +1,5 @@
 ﻿@page "/finger_princess"
+@inject IJSRuntime JsRuntime;
 <div style="text-align:center;
   margin-top: 200px;
   margin-left: 300px;
@@ -6,24 +7,48 @@
 
     width: 500px; height: 200px;
     background-color: pink;">
-   
+
     <h3 style="margin-bottom: 15px">로그인</h3>
-    <input type="text" placeholder="ID를 입력해랏!"/><br />
-    <input type="text" placeholder="PW를 입력해랏!" /><br /><br />
-    <input type="radio" name="군인" value="군인" checked />군인
-    <input type="radio" name="군인" value="군무원" />군무원
-    <input type="button" value="LOGIN" />
+    <input type="text" @bind="Id" placeholder="ID를 입력해랏!" /><br />
+    <input type="password" @bind="Password" placeholder="PW를 입력해랏!" /><br /><br />
+    <input type="radio" name="군인" checked />군인
+    <input type="radio" name="군인" />군무원
+    <input type="button" value="LOGIN" @onclick="Login" />
+    <input type="button" value="꼭 읽어보시오!" @onclick="Popup" />
 
 </div>
 <style>
     body {
         background-image: url('Sanrio2.jpg');
-    
-        }
-    
+    }
 </style>
 @code {
+    public string Id { get; set; }
+    public string Password { get; set; }
 
 
+    private void Alert(string str)
+    {
+        JsRuntime.InvokeVoidAsync("alert", str);
+
+    }
+    private void Popup()
+    {
+        Alert($"ID: 0eun{Environment.NewLine}Password: 123{Environment.NewLine}이거만 됨ㅠ");
+    }
+    private void Login()
+    {
+
+        var myId = "0eun";
+        var myPassword = "123";
+
+        if (Id == myId && Password == myPassword)
+        {
+            Console.WriteLine("로그인 성공!");
+            Alert("로그인 성공!");
+        }
+        else
+            Alert("아이디 혹은 비밀번호가 틀렸습니다.");
+    }
 
 }
