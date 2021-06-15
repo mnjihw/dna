@@ -1,0 +1,2405 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="content-language" content="kr">
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="google-site-verification" content="8_SyZg2Wg3LNnCmFXzETp7ld4yjZB8ny17m8QsYsLwk" />
+<meta name="robots" content="ALL">
+<meta name="description" content="자기들끼리만 하면서 유입은 안 껴주거나똥겜이라고 선동하면서 그나마 생기려던 유입들까지 다 떠나보내네 ㅋㅋㅋㅋ닌갤 THE 썩은물 갤  ㅇㅈ??? 어 ㅇㅈ 오지구요!!~!~!!~~!!!~~~~ㅋㅋㅋㅋㅋㅋㅋㅋ아니라고?? 응">
+<meta name="title" content="닌갤 좆목러들 대난투로 그나마 유입 생기려는거ㅋㅋㅋ - 닌텐도 DS 갤러리">
+<meta name="author" content="ㅇㅇ">
+<!-- S : Facebook Open Graph Meta Tag -->
+<meta property="og:image" content="http://write.dcinside.com/viewimage.php?id=nintendo&no=29bcc427b38377a16fb3dab004c86b6f6b6cb2befff220e35c8f9a3dd0b36854822604c7ffeaddde53e201460a4abce876aca751d77ff95c58caf737bb8e4a2a7aa9dfc0fc0f3dbe362ce15f84f87e2f23bbaacdcddaaa4277e3" />
+<meta property="og:url" content="http://gall.dcinside.com/board/view/?id=nintendo&no=2876913" />
+<meta property="og:title" content="닌갤 좆목러들 대난투로 그나마 유입 생기려는거ㅋㅋㅋ - 닌텐도 DS 갤러리" />
+<meta property="og:description" content="자기들끼리만 하면서 유입은 안 껴주거나똥겜이라고 선동하면서 그나마 생기려던 유입들까지 다 떠나보내네 ㅋㅋㅋㅋ닌갤 THE 썩은물 갤  ㅇㅈ??? 어 ㅇㅈ 오지구요!!~!~!!~~!!!~~~~ㅋㅋㅋㅋㅋㅋㅋㅋ아니라고?? 응.." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="디시인사이드" />
+<meta property="og:locale" content="ko_KR" />
+<!-- E : Facebook Open Graph Meta Tag -->
+<link rel="SHORTCUT ICON" href="http://wstatic.dcinside.com/gallery/skin/main/logo_icon.ico" />
+
+<link href="http://nstatic.dcinside.com/dgn/gallery/css/common_20150916.css" rel="stylesheet" type="text/css">
+ 
+<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css" /> <!-- 150908 웹폰트 추가 링크 -->
+
+<link href="http://nstatic.dcinside.com/dgn/dccone/css/dccone.css" rel="stylesheet" type="text/css">
+<link href="http://nstatic.dcinside.com/dgn/gallery/css/gall_con.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+<link href="http://nstatic.dcinside.com/dgn/gallery/css/gall_detail_20130808.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://nstatic.dcinside.com/dgn/winnerta/css/winnerta.css" type="text/css" charset="utf-8"/> <!-- 위너타 CSS -->
+<link rel="canonical" href="http://gall.dcinside.com/board/view/?id=nintendo&no=2876913"/><link href="http://nstatic.dcinside.com/dgn/gallery/css/voicereply/voicereply.css" rel="stylesheet" type="text/css"><title>닌갤 좆목러들 대난투로 그나마 유입 생기려는거ㅋㅋㅋ - 닌텐도 DS 갤러리</title><script type="text/javascript" src="http://gall.dcinside.com/_js/cross_domain.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/jquery/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/jquery/jquery.paging.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/jquery/jquery.validate.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/zzbang.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/common.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/common.cash.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/search.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/ctr_cookie.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/topbox.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/head.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/alram_push.js"></script>
+<script type="text/javascript" src="http://nstatic.dcinside.com/dgn/png/js/png24.js"></script>
+<script type="text/javascript" src="http://winnerta.dcinside.com/_js/member.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/lately_visit_gallery_view.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/common_json.js"></script><script type="text/javascript" src="http://gall.dcinside.com/_js/sns.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/total_singo.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/voice_reple.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/ZeroClipboard.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/vr_clipboard.js"></script>
+<script type="text/javascript" src="http://gall.dcinside.com/_js/ad.js"></script>
+
+	<script type='text/javascript' src='http://gall.dcinside.com/_js/dccon/common.js'></script>
+	<script type='text/javascript' src='http://gall.dcinside.com/_js/jquery/jquery-ui.js'></script>
+	</head>
+
+
+<!-- 기본 애널리틱스 -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5149721-11']);
+	  _gaq.push(['_setDomainName', 'dcinside.com']);
+	  _gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+<!-- 기본 애널리틱스 -->
+
+<!-- 추가 애널리틱스 -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5149721-39']);
+	  _gaq.push(['_setDomainName', 'dcinside.com']);
+	  _gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+<!--
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5149721-64']);
+	  _gaq.push(['_setDomainName', 'dcinside.com']);
+	  _gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+-->
+<!-- 추가 애널리틱스 -->
+
+
+<body style="position: relative;">
+
+	<!-- 
+	<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript">
+		if(!wcs_add) var wcs_add = {};
+		wcs_add["wa"] = "f92eaecbc22aac";
+		wcs_do();
+	</script> -->
+
+	<!-- 130429  con_user_box 수정 -->
+	<div class="con_user_box" style="z-index: 500; display: none;">
+		<div class="box_pop_galler" id="con_user_box">
+			<ul class="box_1">
+				<li><a href="javascript:;">글<strong id="content_count"></strong></a></li>
+				<li><a href="javascript:;">댓글<strong id="reple_count"></strong></a></li>
+			</ul>
+			<ul class="box_2">
+				<li id="write_search"><a href="javascript:;" class="on">작성글 검색</a></li>
+				<li id="user_profile"><a href="javascript:;">이용자 정보</a></li>
+
+			</ul>
+			<ul class="box_3">
+
+				<li id="move_gallog"><a href="javascript:;">갤로그 가기</a></li>
+				<li id="add_friends"><a href="javascript:;">친구 등록</a></li>
+
+			</ul>
+
+		</div>
+	</div>
+	<!-- 130429  con_user_box 수정 -->
+
+	<!-- 130429  add_friend 수정 -->
+	<div id="dgn_pop_friend" style="display: none">
+		<div class="fr_box_1">
+			<div class="box_top">
+				<h1>
+					<img
+						src="http://nstatic.dcinside.com/dgn/gallery/images/popup/title_fr_request.gif"
+						alt="친구 신청" />
+				</h1>
+				<div class="btn_top_delete">
+					<a href="javascript:;"><img
+						src="http://nstatic.dcinside.com/dgn/gallery/images/popup/btn_fr_delete.gif"
+						alt="닫기 버튼" /></a>
+				</div>
+			</div>
+			<p class="box_txt">
+				<span id="friend_name"></span>를 친구 신청합니다.
+			</p>
+			<div class="box_tab">
+				<span id="add_1"><a href="javascript:;" class="on"><div>Lv.1</div></a></span><span
+					id="add_2"><a href="javascript:;">Lv.2</a></span><span id="add_3"><a
+					href="javascript:;">Lv.3</a></span>
+			</div>
+			<div class="box_con">
+
+				<!-- 130724 추가  -->
+				<select name="add_1" size=6 class="fri_list add_1">
+					<option value="D10001">가족</option>
+					<option value="D10002">친척</option>
+					<option value="D10003">애인</option>
+					<option value="D10004">친구</option>
+					<option value="D10005">남편</option>
+					<option value="D10006">아내</option>
+				</select> <select name="add_2" size=6 class="fri_list add_2"
+					style="display: none">
+					<option value="D20001">선배</option>
+					<option value="D20002">후배</option>
+					<option value="D20003">직장</option>
+					<option value="D20004">군대</option>
+					<option value="D20005">사회</option>
+					<option value="D20006">동호회</option>
+					<option value="D20007">동네</option>
+					<option value="D20008">초등학교</option>
+					<option value="D20009">중학교</option>
+					<option value="D20010">고등학교</option>
+					<option value="D20011">대학교</option>
+					<option value="D20012">대학원</option>
+				</select> <select name="add_3" size=6 class="fri_list add_3"
+					style="display: none">
+					<option value="D30001">아는사람들</option>
+					<option value="D30002">팬</option>
+				</select>
+
+			</div>
+			<!-- btn_friend 130724 추가 -->
+			<p class="btn_friend">
+				<input type="button" value="친구신청" alt="친구신청" id="add_submit" />
+			</p>
+		</div>
+	</div>
+	<!-- 130429  add_friend 수정 -->
+
+	<!--  dgn_wrap 130718 추가 -->
+	<div id="dgn_wrap" style="z-index: 0;">
+
+
+	<!-- dgn_header_gall -->
+	<div id="dgn_header_gall">
+		<!-- gall_top_wrap-->
+		<div id="dgn_gall_top_wrap" class="glist">
+			<!-- dgn_gall_top -->
+			<div id="dgn_gall_top">
+				<!-- top_box -->
+				<div class="top_box" >
+					<h1>
+						<a href="http://www.dcinside.com/" target="_self"><img src="http://nstatic.dcinside.com/dgn/gallery/images/dcinside_logo.gif" width="178" height="28" alt="디시인사이드 로고" /></a><a href="http://gall.dcinside.com/" target="_self" class="sub_logo"><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_gallery.gif" width="52" height="22" alt="갤러리" /></a><!-- 140613 추가 -->
+					</h1>
+					<!--<h1><a href="http://www.dcinside.com/" target="_self"><img src="http://nstatic.dcinside.com/dgn/gallery/images/dcinside_logo.gif" width="178" height="28" alt="디시인사이드 로고" /></a></h1>
+					<p><a href="http://gall.dcinside.com/" target="_self"><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_gallery.gif" width="52" height="22" alt="갤러리" /></a></p><!-- 타이틀 수정 130603 -->
+
+					<div class="top_search">
+						<div class="search">
+							<form name="searchFrom" id="searchFrom" method="get" action='http://dreamwiz.dcinside.com/'>
+								<div class="s_input"><input type="text" name="sword" tabindex="1" style="ime-mode:active;" id="gn_top_search_0" /></div>
+								<span class="btn_search"><a href="javascript:;"></a></span>
+							</form>
+						</div>
+					</div>
+
+
+
+					<div class="top_banner">
+	
+					</div>
+				</div>
+				<!-- //top_box -->
+				<!-- top_menu -->
+				<div class="top_m">
+					<ul>
+						<a href='https://dcid.dcinside.com/join/login.php?s_url=http%3A%2F%2Fgall.dcinside.com%2Fboard%2Fview%2F%3Fid%3Dnintendo%26no%3D2876913'>
+							<img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_gall_login.gif" width='49' height='17' alt="로그인 버튼">
+						</a>
+
+						<li><a href="http://gall.dcinside.com/" target="_self">갤러리</a></li>
+						<li class="line"><a href="http://www.dcnews.in/" target="_blank">뉴스</a></li>
+						<li class="line" id="top_more"><a href="javascript:;">더보기<span class="icon_arrow"></span></a></li>
+						<li class="line"><a href="http://mobile.dcinside.com" target="_blank"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_mobile.gif" width="50" height="12" class="mobile" alt="모바일"></a></li>
+					</ul>
+				</div>
+				<!-- //top_menu -->
+				<!-- btn_add_layer 더보기 롤오버시 레이어  style="display:none;" 삭제 -->
+                <div id="gnb_layer2" class="btn_add_layer"  style="display:none;">
+					<ul>
+						<li><a href="http://gallog.dcinside.com/" target="_top" />갤로그</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://event.dcinside.com/" target="_top">이벤트</a></li>
+					</ul>
+					<ul class="ul_end">
+						<li><a href="http://mall.dcinside.com/" target="_self">만두몰</a></li>
+					</ul>
+				</div>
+
+
+				<!-- //btn_add_layer -->
+				<!-- dgn_globalmenu -->
+				<div id="dgn_globalmenu" style="width:1100px;">
+					<!-- menu_bg -->
+					<div class="menu_bg">
+						<div style="position:absolute;left:0px;top:0px;">
+														<iframe src="http://gall.dcinside.com/_inc/menu/gn_top_menu.php" style="width:1100px;height:40px;" frameborder="no" scrolling="no"></iframe>
+						
+						</div>
+					</div>
+					<!-- //menu_bg -->
+
+					<!-- top_ad_box -->
+					<div class="top_ad_box">
+						<!--  <div class="ad_bg"><a href="">갤러리 개설권을 잡아라!<span>EVENT</span></a></div>	-->
+						<!--  gall_exposure 130531 추가 -->
+						<ul class="gall_exposure">
+							<!--li class="bg_l"></li-->
+							<div style=" position:relative; width:370px; height:27px; overflow:hidden;">
+								<li class="bg_c">
+									<div><div class="t_4"><span></span></div><div class="t_num" id="gall_count_0"></div><div class="t_1"><span></span></div><div class="t_num" id="total_reple_count"></div><div class="t_2"><span></span></div></div>
+									<div><div class="t_4"><span></span></div><div class="t_num" id="gall_count_1"></div><div class="t_1"><span></span></div><div class="t_num" id="total_content_count"></div><div class="t_3"><span></span></div></div>
+								</li>
+							</div>
+							<!--li class="bg_r"></li-->
+						</ul>
+						<!--  //gall_exposure -->
+					</div>
+					<!-- //top_ad_box -->
+				</div>
+				<!-- //dgn_globalmenu -->
+			</div>
+			<!-- //dgn_gall_top -->
+		</div>
+		<!-- //gall_top_wrap -->
+	</div>
+	<!-- //dgn_header_gall -->
+
+
+
+	<!-- dgn_gallery_wrap -->
+		<div id="dgn_gallery_wrap" style="background: none">
+			<div class="gallery_content">
+				<!-- gallery_left -->
+				<div id="dgn_gallery_left" style="width: 1096px">
+
+				<!-- gallery_title -->
+				<div class="gallery_title">
+					<h1>
+        	<a class="fc_5b" href="/board/lists/?id=nintendo">
+			<span class="tit">닌텐도 DS</span>갤러리
+		</a>
+						</h1>
+					<!--// <div class="gallery_un">
+						<ul>
+							<li style="background:none"><a href="javascript:;"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_url_copy.gif" alt="갤러리 URL 복사" id="url_copy"/></a></li>
+							<li><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_gallery_notice.gif" alt="갤러리 공지"/>&nbsp;<span class="txt_gall_notice"><a href="http://gall.dcinside.com/board/view/?id=know&no=119">갤러리가 새롭게 오픈되었습니다</a></span></li>
+						</ul>
+					</div> //-->
+                    <!--  gallery_un_1 130809 수정 -->
+					<div class="gallery_un_1">
+						<ul>
+							<li class="box_text_n_2">
+								<a href="http://gall.dcinside.com/board/lists/?id=know"><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_gallery_notice.gif" alt="갤러리 공지" class="notice_title"/></a>
+								<ul id="notice_rolling" class="notice_text_roll" style="overflow:hidden; height:14px;">
+									<!-- <dd><span class="txt_gall_notice"><a href="http://gall.dcinside.com/board/view/?id=know&no=214&page=1">디시인사이드 개인정보취급방침 변경 안내</a></span></dd> -->
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- // gallery_un_1  -->
+
+				</div>
+				<!-- //gallery_title -->
+
+                <!--// 공지 롤링 //-->
+                <script type="text/javascript">
+	                $(document).ready(function(){
+	                    // 공지 불러오기
+	                    $.getJSON('http://json.dcinside.com/notice.php?jsoncallback=?', function(data) {
+	                        var str = "";
+	                        $.each(data, function(i, e) {
+	                            str += "<dd><span class=\"txt_gall_notice\"><a href=\""+e['link']+"\">"+e['title']+"</a></span></dd>";
+	                        });
+	                        $('#notice_rolling').html(str)
+
+	                        // 공지 롤링
+	                        if ($('#notice_rolling').children().length>1) {
+	        	                setInterval('notice_rolling()',3000);
+	        	            }
+	                    });
+
+	                });
+
+	                function notice_rolling () {
+	                    $('#notice_rolling').find('dd').each(function(){
+	                        if ($(this).is(':first-child')) {
+	                            $(this).slideUp(function(){$(this).appendTo($(this).parent()).slideDown();});
+	                        }
+	                    });
+	                }
+                </script>
+<!-- gallery_box class="on" 메뉴 활성화-->
+<div class="gallery_box" id="gallery_box" style="height: 60px">
+	<!-- gallery_box 접기 style="height:60px;" -->
+	<!-- box_wrap -->
+	<div class="box_wrap">
+		<!-- box_menu -->
+		<div class="box_menu">
+			<ul class="menu">
+				<li id="top_ilbebtn"
+					style="padding-left: 10px; background: none; width: 90px;"><a
+					href="javascript:;" class="on"></a></li>
+				<li class="m_2"><a href="javascript:;"></a></li>
+				<li class="m_3"><a href="javascript:;"></a></li>
+				<!-- 130429 디시차트 추가  -->
+				<li style="display: none;" class="m_4"><a href="javascript:;"
+					class=""></a></li>
+				<li style="display: none" class="m_5"><a href="" class=""></a></li>
+				<li class="m_6"><a href="javascript:;" id="relation_gallery_view"></a></li>
+				<li class="m_add"><span class="btn_fine_add_1"><a
+						href="javascript:;" style="display: none;"></a></span></li>
+				<!-- 상대적인 위치로 추가함   -->
+				<!-- 140212 주소복사메뉴추가 m_8 -->
+				<li class="m_8" id="url_copy"><a href="javascript:;"></a></li>
+							</ul>
+
+			<!--span class="btn_fine_add"><a href=""></a></span-->
+
+			<ul class="btn">
+				<li style="border-left: none">&nbsp;&nbsp;&nbsp; <!--a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_date_prev.gif" alt="이전" /></a>
+									<a href=""><b>2012.12.12</b></a>
+									<a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_date_next.gif" alt="다음" /></a-->&nbsp;&nbsp;&nbsp;
+				
+				
+				<li class="btn_bookmark" id="add_favorite" style="display: none;"><a
+					href="javascript:;" class="btn_bookmark" id="add_gallery">[현재 갤러리
+						즐겨찾기에 추가]</a></li>
+				</li>
+
+
+				<li id="ilbe_prev" class="btnIlbe" style="display: none;"><a
+					href="javascript:;" class="btn_prev_on" target_code="ilbe"
+					id="ilbe_prev_next"></a></li>
+				<li id="ilbe_next" class="btnIlbe" style="display: none;"><a
+					href="javascript:;" class="btn_next_on" target_code="ilbe"
+					id="ilbe_prev_next"></a></li>
+				<!--li><a href="" class="btn_prev_off"></a></li>
+								<li><a href="" class="btn_next_on"></a></li-->
+				<li id="btn_fold" style="display: block"><a href="javascript:;"
+					class="btn_fold"></a></li>
+				<li id="btn_unfold" style="display: none"><a href="javascript:;"
+					class="btn_unfold"></a></li>
+			</ul>
+		</div>
+		<!-- //box_menu -->
+
+		<!-- favorite_box -->
+		<div class="favorite_box" style="display: none">
+			<ul>
+				<li><a href="">아르바이트</a></li>
+				<li><a href="">뮤직</a></li>
+				<li><a href="">투데이디시</a></li>
+				<li><a href="">쇼핑</a></li>
+				<li><a href="">디시뉴스</a></li>
+			</ul>
+		</div>
+		<!-- //favorite_box -->
+
+		<!--  box_contents -->
+		<div class="box_contents">
+			<div id="top_box" class="box_contents_area" style="display: none;">
+				<!-- gallery_box 접기 style="display:none" -->
+				<!-- 141203  class 추가 -->
+				<!-- contents_wrap -->
+<div class="contents_wrap" id="m_1" style="display:none;"><div class="content_ilbe">
+	<!--div id="ilbe_0">
+		<p class="best_img"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_1.gif" alt="게시글 이미지"/></a></p>
+		<ul class="con_best">
+			<li><a href="" ><b>모터쇼에서 있었던 일<em>[52]</em></b></a></li>
+			<li class="contents_txt"><a href="">진짤고 무서워 무슨 블링블링 딱지 뭐 난생 처음 모터쇼 구경이라, 차도 구경하고 이쁜 레이싱 걸 언니들도 구경하던 찰라!!!</a></li>
+			<li class="contents_writer">작성자 : 닐라닐라 <a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/icon_galler.gif" alt="고정닉"/></a></li>
+			<li class="contents_writer">작성자 : 닐라닐라 <a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/icon_galler_1.gif" alt="유동닉"/></a></li>
+		</ul>								
+		<ul class="con_list">
+			<li><span>실상준수</span><a href="">간을 호모사피엔스라 정의했다. 그게 뭔지 나도 <em>[25]</em></a></li>
+			<li><span>휴휴</span><a href="">닮았다고 들었던 사람,, 이거 욕이지? ㅎㅎ 아닐지도  <em>[5]</em></a></li>
+			<li><span>나영이 최고</span><a href="">쌍커플 수술 5개월짼데? ㅜ  <em>[23]</em></a></li>
+			<li><span>연아 사랑</span><a href="">깔끔한 이미지로 거듭나고 싶은데용,, 흑흐 글니안  <em>[5]</em></a></li>
+			<li><span>에드워드권</span><a href="">이거 눈 한 거 맞나요?  <em>[15]</em></a></li>
+		</ul>
+	</div-->
+</div>
+</div><div class="contents_wrap_1" id="m_2" style="display:none;"><!--  contents_box_1  활성화 class="on" -->
+<div class="contents_box_1">
+	<ul class="gall_consonant">
+		<li class="b_a"><a href="javascript:;">ㄱ</a></li>
+		<li class="b_a"><a href="javascript:;">ㄴ</a></li>
+		<li class="b_a"><a href="javascript:;">ㄷ</a></li>
+		<li class="b_a"><a href="javascript:;">ㄹ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅁ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅂ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅅ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅇ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅈ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅊ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅋ</a></li>
+		<li class="b_a"><a href="javascript:;">ㅌ</a></li>
+		<li class="b_n"><a href="javascript:;">ㅍ</a></li>
+		<li class="b_n"><a href="javascript:;">ㅎ</a></li>
+		<li class="b_n" style="width:65px;"><a href="javascript:;" style="width:61px;text-align:center;font-size:11px;">A - Z</a></li>
+	</ul>
+</div>	
+<!--  //contents_box_1 -->
+<style type="text/css">
+#search_text::-ms-clear {
+display: none;
+}
+</style>
+<!--  contents_box_2 -->
+<div class="contents_box_2">
+	<!-- gall_searching -->
+	<div class="gall_searching">
+		<input id="search_text" type="" onfocus="this.style.background = '#FFFFFF'" style="background:#fff url(http://nstatic.dcinside.com/dgn/gallery/images/bg_search_input.gif) 10px center no-repeat"/>
+		<a href="javascript:;"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_search_1.gif" class="search_btn" alt="검색" width="40" height="20"/></a>
+	</div>
+
+	<div class="gall_search_down" style="display:none">
+		
+	</div>
+
+	<!-- //gall_searching -->
+	<!-- gall_category 활성화 class="on" -->
+	<div class="gall_category">
+		<div class="cate_add">
+			<!--height:146px;overflow:auto;overflow-x:hidden;-->
+			<div id="gallery_category" style="position:relative;overflow:auto;overflow-x:hidden;background:#fff">
+				<!--ul>
+					<li><a href="">게시판</a></li>
+					<li><a href="">신설갤러리</a></li>
+					<li><a href="">스페셜</a></li>
+					<li><a href="">이슈</a></li>
+					<li><a href="">여행/풍경</a></li>
+					<li><a href="">음식</a></li>
+					<li><a href="">밀리터리</a></li>
+					<li><a href="">성인</a></li>
+					<li><a href="">교통</a></li>
+					<li><a href="">합성</a></li>
+					<li><a href="">이슈</a></li>
+				</ul-->
+			</div>
+			<div class="cate_btn_add" style="right:0;display:block;" id="cate_plus"><a href="javascript:;"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_search_add.gif" alt="더보기 버튼"/></a></div>
+			<div class="cate_btn_add" style="right:0;display:none;" id="cate_min"><a href="javascript:;"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_search_fold.gif" alt="접기 버튼"/></a></div>
+		</div>
+	</div>
+	<!-- gall_category -->
+</div>
+<!--  //contents_box_2 -->
+
+<!--  contents_box_3 -->
+<div class="contents_box_3">
+	<div class="gall_result">
+		<p>[갤러리 검색 결과]</p>
+		<div class="result_gallery">
+<ul>
+	<!--li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????</a></li>
+	<li><a href="">???,???????? </a></li>
+	<li><a href="">???,???,????????????? </a></li>
+	<li><a href="">????,??????? </a></li>
+	<li><a href="">?????? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????</a></li>
+	<li><a href="">???,???????? </a></li>
+	<li><a href="">???,???,????????????? </a></li>
+	<li><a href="">????,??????? </a></li>
+	<li><a href="">?????? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????</a></li>
+	<li><a href="">???,???????? </a></li>
+	<li><a href="">???,???,????????????? </a></li>
+	<li><a href="">????,??????? </a></li>
+	<li><a href="">?????? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li>
+	<li><a href="">????</a></li>
+	<li><a href="">???,???????? </a></li>
+	<li><a href="">???,???,????????????? </a></li>
+	<li><a href="">????,??????? </a></li>
+	<li><a href="">?????? </a></li>
+	<li><a href="">????? ????? </a></li>
+	<li><a href="">??? </a></li-->
+</ul>		</div>
+	</div>
+</div>
+<!--  //contents_box_3 -->
+</div><div class="contents_wrap_1" id="m_3" style="display:none;"><!--  contents_box_1  활성화 class="on" -->
+<div class="contents_box_1">
+	<div class="gall_bookmark">
+		<ul>
+			<li class="pic_galler"><a href="http://gallog.dcinside.com/" id="favorite_gallog_img"></a></li>	
+			<li class="btn_gallog"><a href="http://gallog.dcinside.com/"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_search_gallog.gif" alt="갤로그 가기" width="101" height="20"/></a></li>
+		</ul>
+	</div>
+</div>	
+<!--  //contents_box_1 -->
+
+<!--  contents_box_2 -->
+<div class="contents_box_2">
+	<div class="gall_gallog">
+		<ul>
+		</ul>
+	</div>
+</div>
+<!--  //contents_box_2 -->
+
+<!--  contents_box_3 -->
+<div class="contents_box_3">
+	<div class="gall_list_box">
+		<div class="list_bookmark">
+			<div class="box_top_gall">
+				[주 활동 갤러리]
+				<div class="icon_setup_gall"><a href="javascript:;" id="favorite_popup"></a></div>
+			</div>	
+			<div class="box_con_gall">
+				<ul>
+				</ul>
+			</div>	
+		</div>
+	</div>
+</div>
+<!--  //contents_box_3 --></div><div class="contents_wrap" id="m_9" style="display:none;"><div class="content_toptoon">
+</div></div>
+								<!-- //contents_wrap -->
+				<div class="contents_favorite" style="display: none">
+					<div>
+						즐겨찾기를 이용해 보세요.<br />자주 방문하는 갤러리를 즐겨찾기에 추가하면 보다 쉽게 갤러리 활동을 할 수
+						있습니다.
+						<p>
+							<a href="javascript:;" id="favorite_popup"><img
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_favorite.gif"
+								value="즐겨찾기 설정" /></a>
+						</p>
+					</div>
+				</div>
+				<!-- 141203 주석 <div class="banner_box">
+
+								</div> -->
+			</div>
+			<!--  con_lately 141203-->
+			<div class="con_lately">
+				<input type="hidden" name="total_lately" id="total_lately"> <input
+					type="hidden" name="lately_gallery" id="lately_gallery"
+					value="nintendo|닌텐도 DS|18">
+				<p>
+					<img
+						src="http://nstatic.dcinside.com/dgn/gallery/images/title_lately_gallery.gif"
+						alt="최근 방문 갤러리" />
+				</p>
+				<ul id="lately_gallery_list">
+					<!--li><a href="" class="txt_over">피겨 스케이팅</a><a href="" class="btn_del"></a></li>
+									<li><a href="" class="txt_over">MBC드라마</a><a href="" class="btn_del"></a></li>
+									<li><a href="" class="txt_over">정치사회</a><a href="" class="btn_del"></a></li>
+									<li><a href="" class="txt_over">스타 크래프트</a><a href="" class="btn_del"></a></li>
+									<li><a href="" class="txt_over">코미디 프로그램</a><a href="" class="btn_del"></a></li-->
+					<li id="lately_gallery_0"></li>
+					<li id="lately_gallery_1"></li>
+					<li id="lately_gallery_2"></li>
+					<li id="lately_gallery_3"></li>
+					<li id="lately_gallery_4"></li>
+					<li id="lately_gallery_5"></li>
+				</ul>
+				<a href="javascript:;" class="btn_prev" id="btn_prev"><img
+					src="http://nstatic.dcinside.com/dgn/gallery/images/btn_box_prev.gif"
+					alt="이전갤러리" /></a> <a href="javascript:;" class="btn_next"
+					id="btn_next"><img
+					src="http://nstatic.dcinside.com/dgn/gallery/images/btn_box_next.gif"
+					alt="다음 갤러리" /></a>
+			</div>
+			<!-- //con_lately -->
+		</div>
+		<!--  //box_contents -->
+	</div>
+	<!-- //box_wrap -->
+
+
+
+					<!-- dgn_popup_4 130731 추가 -->
+					<div id="dgn_popup_4" style="display:none;z-index:9999;">
+						<!-- dgn_popup_top -->
+						<div id="dgn_popup_top_2">
+							<h1><img src="http://nstatic.dcinside.com/dgn/gallery/images/popup/title_relation_gallery.gif" alt="연관 갤러리 더보기 " /></h1>
+							<div class="popup_top_btn"><a href="javascript:;" id="relation_close"><img src="http://nstatic.dcinside.com/dgn/gallery/images/popup/btn_popup_close.png" alt="닫기버튼" width="15" height="15" class="png24"/></a></div>
+						</div>
+						<!-- //dgn_popup_top -->
+						<!-- dgn_popup_con_2 -->
+						<div id="dgn_popup_con_2">
+
+							<!-- relation_box_2 -->
+							<div class="relation_box_2">
+<ul><li><a href="/board/lists/?id=monsterhunter">몬스터헌터</a></li><li><a href="/board/lists/?id=pokemon">포켓몬스터</a></li><li><a href="/board/lists/?id=nintendowii">닌텐도 Wii</a></li><li><a href="/board/lists/?id=video_game">비디오게임</a></li><li><a href="/board/lists/?id=game_q">게임갤 Q&A</a></li><li><a href="/board/lists/?id=psp">PSP</a></li><li><a href="/board/lists/?id=xbox">XBOX 360</a></li><li><a href="/board/lists/?id=playstation">PlayStation</a></li></ul>			
+							</div>
+							<!-- //relation_box_2 -->
+						</div>
+						<!-- //dgn_popup_con_2 -->
+					</div>
+					<!-- //dgn_popup_4 -->
+									</div>
+<!-- //gallery_box -->
+
+			</div>
+				<!-- //dgn_gallery_left -->
+
+			<!-- dgn_gallery_right -->
+			<div id="dgn_gallery_right_detail">
+				<!-- banner_box -->
+			<!--<div class="banner_box_detail"> -->
+<script language="javascript" src="http://addc.dcinside.com/NetInsight/js/dcinside/gallery/body@top_nintendo"></script>					
+
+			<!--</div> -->
+				<!-- //banner -->
+			</div>
+			<!-- //dgn_gallery_right -->
+		</div>
+			<!-- //gallery_content -->
+
+			<!-- dgn_gallery_detail  -->
+			<div id="dgn_gallery_detail">
+				<!-- dgn_content_de  -->
+				<div id="dgn_content_de">
+
+
+				<!-- re_gall_top_1 130807  -->
+					<div class="re_gall_top_1">
+						<!--  w_top_left -->
+						<div class="w_top_left">
+							<dl class="wt_subject">
+								<dt>제 목</dt>
+								<dd>닌갤 좆목러들 대난투로 그나마 유입 생기려는거ㅋㅋㅋ<span style='display: inline-block;vertical-align: middle;margin: -4px 0 0 2px;'><img src='http://wstatic.dcinside.com/gallery/images/mobile_icon_1.gif' border='0'></span></dd>
+							</dl>
+							<dl>
+								<dt>글쓴이</dt>
+								<dd>
+									<span class="user_layer"
+										user_name="ㅇㅇ"
+										user_id='' style="cursor: pointer;"><span title=''>ㅇㅇ</span></span>
+								</dd>
+								<dt class="dt_line">조회</dt>
+								<dd class="dd_num">
+								503							</dd>
+								<dt class="dt_line">댓글</dt>
+								<dd class="dd_num">
+								19							</dd>
+							</dl>
+						</div>
+						<!-- // w_top_left -->
+						<!--  w_top_right -->
+						<div class="w_top_right">
+							<ul>
+								<li><b>2015-09-18 18:07:49</b></li>
+								<li class="li_ip">
+
+211.36.*.*
+							</li>
+							</ul>
+						</div>
+						<!-- // w_top_right -->
+					</div>
+					<!-- //re_gall_top -->
+
+
+<input type="hidden" id="comment_num" value="100"><input type="hidden" id="best_id" value=""><input type="hidden" id="best_no" value=""><input type="hidden" id="best_fno" value="BEST"><input type="hidden" id="recommend" value="K"><input type="hidden" name="no" id="no" value="2876913" /><br><input type="hidden" name="id" id="id"  value="nintendo" /><input type="hidden" name="gallery_no" id="gallery_no"  value="39" /><input type="hidden" name="clickbutton" id="clickbutton"  value="N" /><input type='hidden' name='check_1' id='check_1' value=''><input type='hidden' name='check_2' id='check_2' value='7ced'><input type='hidden' name='check_3' id='check_3' value=''><input type='hidden' name='check_4' id='check_4' value=''><input type='hidden' name='check_5' id='check_5' value='7ee4'><input type='hidden' name='check_6' id='check_6' value='a6563cac3516782aac595d7fdf5adbf1ae88eef7dbeeeed70749087863e7c00b14488da97e2e67512bbbf2a75f9cc0f17bc755350c11e870f4b67bb65b4c293e9a3197e75f82021fc4b1'><input type='hidden' name='check_7' id='check_7' value='7d'><input type='hidden' name='check_8' id='check_8' value='ae5837a50035'>
+
+				<!-- re_gall_box_1 -->
+					<div class="re_gall_box_1">
+						<!-- con_substance -->
+						<div class="con_substance">
+							<div class="s_write">
+<div id='zzbang_div' style='display:none;'></div><pre></pre><table border="0" width="100%"><tr><td><p style="text-align:left;"><div app_paragraph="Dc_App_Img_0" app_editorNo="0" ><img src="http://dcimg2.dcinside.com/viewimage.php?id=23b4de32e0dc3ca9&no=29bcc427b38377a16fb3dab004c86b6f6b6cb2befff220e35c8f9a3dd0b36854822604c7ffeaddde53e201460a4abce876aca751d77ff95c58caf737bb8e4a2a7aa9dfc0fc0f3dbe362ce15f84f87e2f23bbaacdcddaaa"  /></div></p><br><p><div app_paragraph="Dc_App_text_0" app_editorNo="1">자기들끼리만 하면서 유입은 안 껴주거나<br/>똥겜이라고 선동하면서 그나마 생기려던 유입들까지 다 떠나보내네 ㅋㅋㅋㅋ<br/>닌갤 THE 썩은물 갤  ㅇㅈ??? 어 ㅇㅈ 오지구요!!~!~!!~~!!!~~~~ㅋㅋㅋㅋㅋㅋㅋㅋ<br/>아니라고?? 응 니애미~~~~~~~느금~~~~</div></p><br></td></tr></table>
+				   		</div>
+				    </div>
+
+						<!-- //con_substance -->
+
+
+
+  					<!-- con_banner -->
+				    <div class="con_banner" style="min-width:160px; min-height:600px;">
+
+
+
+
+				<script type='text/javascript'>
+				<!--//<![CDATA[
+				   document.MAX_ct0 ='INSERT_CLICK_URL';
+				   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');
+				   var m3_r = Math.floor(Math.random()*99999999999);
+				   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+				   document.write ("zoneid=197515");
+				   document.write ('&amp;cb=' + m3_r);
+				   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+				   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+				   document.write ("&amp;loc=" + escape(window.location));
+				   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+				   if (document.context) document.write ("&context=" + escape(document.context));
+				   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+				       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+				   }
+				   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+				   document.write ("'></scr"+"ipt>");
+				//]]>--></script>
+
+					 </div>
+					 <!-- //con_banner -->
+                </div>
+					<!-- //re_gall_box_1 -->
+
+					<!-- re_gall_box_2 -->
+					<div class="re_gall_box_2">
+<!-- 130429 본문 광고 -->
+<div id="dc_advertisement" style="width: 100%; padding-top: 180px;">
+
+
+			<script type='text/javascript'>
+				var n2s_u = 'http://search.n2s.co.kr/_pb_nbz_info.php?id=dcinside&cd=dcinside_4&pw=728&ph=90&'; //id:매체Id, cd:지면코드, pw:지면width, ph:지면height
+				var n2s_html = "<scr"+"ipt type='text/javascript' src='"+n2s_u;
+				var n2s_pb = 'http://search.n2s.co.kr/_n2s_nsgunion_ads_info.php?id=mmatclcl&cd=mmatclcl_1'; //리타겟이 없는 경우 패스백할 주소
+				n2s_html += '&pb_url=' + escape(n2s_pb);
+				n2s_html += '&cb=' + Math.floor(Math.random()*99999999999);
+				n2s_html += "'><\/scr"+"ipt>";
+				document.write(n2s_html);
+			</script>
+
+</div>
+					<!--  130429 btn_recommend -->
+						<div class="btn_recommend" style="padding-top: 100px;">
+							<a href="javascript:;" id="recommend_vote_up" class="b_re_up"><div
+									class="re_num">
+									<span id="recommend_view_up">13</span>
+								</div></a>
+												<a href="javascript:;" id="recommend_vote_down" class="b_re_down"><div
+									class="re_num">
+									<span id="recommend_view_down"><span class="t_black">0</span></span>
+								</div></a>
+											</div>
+
+					<!-- 130429 요즘 삭제 및 스크랩 추가 -->
+						<div class="btn_social">
+							<a href="javascript:;" id="T" /><img
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_s_t.gif"
+								title="트위터 보내기" /></a><a href="javascript:;" id="F" /><img
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_s_f.gif"
+								title="페이스북 보내기" /></a><a href="javascript:;" id="S" /><img
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_s_k.gif"
+								title="카카오스토리 보내기" /></a><a class="scrap" id="scrap"
+								href="javascript:;"><img title="스크랩하기"
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_s_scrap_new.gif"></a><a
+								href="javascript:;" id="view_copy_url" class="view_copy_url"><img
+								src="http://nstatic.dcinside.com/dgn/gallery/images/btn_s_urlcopy.gif"
+								title="주소복사하기" /></a>
+						</div>
+					<!-- 130429 report_bts 추가 -->
+						<div class="report_bts">
+							<ul>
+								<li>
+									<div class="go_hitgall">
+										<a id="confirm_userhit" class="hitgall" href="javascript:;">힛갤로</a>
+										<a class="qstn hit_qs" href="javascript:;">?</a>
+									</div>
+									<div class="dislike_bubble btn_hit_pop" style="display: none;">
+										<p class="bubble_b hit">
+											힛갤로 버튼을 클릭하시면 유저추천힛 갤러리로 <br> 이용자가 추천한 게시물이 등록됩니다. <br> 추천된
+											게시물들 중에 관리자가 선별하여 힛갤로 <br> 노출하게 됩니다.
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="dislike_btns">
+										<a class="dislike" href="javascript:;">나쁜글</a> <a
+											class="qstn bad_qs" href="javascript:;">?</a>
+									</div>
+									<div class="dislike_bubble btn_bad_pop" style="display: none;">
+										<p class="bubble_w">
+											<strong>‘나쁜글’ 이란?</strong> '나쁜글'이란 좀 더 깨끗한 갤러리를 위한 <br> 캠페인
+											기능입니다. <br> 이용자분들이 욕설, 도배, 광고 및 기타 불량 <br> 하거나 부적절하다고 생각되는 글에
+											나쁜글을 클릭해주시면 운영자가 이를 갤러리 관리에 <br> 참고하게 됩니다.
+										</p>
+										<p class="bubble_b">
+											<span style="font-size: 12px;">※</span> 게시물 신고는 신고게시판을 이용해
+											주시기 <br> 바랍니다.
+										</p>
+									</div>
+								</li>
+								<li><a class="report19" href="javascript:;">음란물 신고</a></li>
+							</ul>
+						</div>
+						<!-- report_bts -->
+				</div>
+					<!-- //re_gall_box_2 -->
+
+
+					<!-- 130429 신고개선안 팝업 추가  -->
+					<div class="r_popup_area" style="display: block;">
+						<!-- 힛갤로 -->
+						<div id="userhit_confirm" class="r_popup w"
+							style="display: none; top: -230px;">
+							<div class="r_popup_title">
+								<span>힛갤로</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+							<div class="r_popup_content" style="padding-bottom: 15px;">
+								<p>
+									<b>힛갤로 추천 하시겠습니까?</b>
+								</p>
+								<p class="btn_box">
+									<a id="userhit_go" class="r_report" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_report_1.png"
+										alt="확인" /></a>&nbsp;&nbsp; <a class="r_cancel"
+										href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_cancle.png"
+										alt="취소" /></a>
+								</p>
+								<p class="btn_user_hit">
+									<a href="http://gall.dcinside.com/list.php?id=uservote"
+										target="uservote" class="close_pop">유저추천힛</a>
+								</p>
+							</div>
+
+						</div>
+						<!-- //힛갤로  -->
+
+						<!-- 힛갤로 -->
+						<div id="userhit_ok" class="r_popup"
+							style="display: none; top: -230px;">
+							<div class="r_popup_title">
+								<span>힛갤로</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+							<div class="r_popup_content" style="padding-bottom: 15px;">
+								<p>추천하였습니다.</p>
+								<p class="btn_box">
+									<a class="r_report r_cancel" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+								<p class="btn_user_hit">
+									<a href="http://gall.dcinside.com/list.php?id=uservote"
+										target="uservote" class="close_pop">유저추천힛</a>
+								</p>
+							</div>
+						</div>
+						<!-- //힛갤로 -->
+
+						<!-- 힛갤로 이미 -->
+						<div id="userhit_again" class="r_popup w_s"
+							style="display: none; top: -230px; left: 400px;">
+
+							<div class="r_popup_title">
+								<span>힛갤로</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>이미 힛갤로 추천하였습니다.</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //힛갤로 이미 -->
+
+						<!-- 음란게시물신고 -->
+						<div id="adult_layer" class="r_popup"
+							style="display: none; top: -240px;">
+							<div class="r_popup_title" style="">
+								<span>음란 게시물 신고하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+							<div class="r_popup_content">
+								<p>
+									<b>잠깐! 음란 게시물이 확실한가요?</b><br /> 음란 게시물이 아닐 경우 처리되지 않으며, 허위신고시
+									차단 조치 됩니다.
+								</p>
+								<p class="btn_box">
+									<a id="adult" class="r_report confirm_singo"
+										href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_report.png"
+										alt="신고" /></a>&nbsp;&nbsp; <a class="r_cancel"
+										href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_cancle.png"
+										alt="취소" /></a>
+								</p>
+								<div class="r_privacy_1">
+									<a class="go_write" singo_code="7"
+										href="http://gall.dcinside.com/singo/singo_write/?id=singo">개인정보침해
+										신고</a><a class="go_write" singo_code="8"
+										href="http://gall.dcinside.com/singo/singo_write/?id=singo">저작권
+										침해</a><a class="go_write" singo_code="9"
+										href="http://gall.dcinside.com/singo/singo_write/?id=singo">대문,짤방,공지,장애</a>
+									<p>
+										<span>※</span> 다른 신고 사유는 갤러리 메인의 신고 게시판 메뉴를 이용해주시기 바랍니다. <br />(주제와
+										맞지 않는 신고 반복 시 차단 조치될 수 있습니다.)
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- //음란게시물신고 -->
+
+						<!-- 나쁜게시물신고 -->
+						<div id="bad_layer" class="r_popup"
+							style="display: none; top: -230px;">
+							<div class="r_popup_title">
+								<span>나쁜글 선택하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+							<div class="r_popup_content">
+								<p>
+									<b>나쁜 게시물이 확실한가요?</b>
+								</p>
+								<p class="btn_box">
+									<a id="bad" class="r_report confirm_singo" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_report_1.png"
+										alt="확인" /></a>&nbsp;&nbsp; <a class="r_cancel"
+										href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_cancle.png"
+										alt="취소" /></a>
+								</p>
+								<p style="margin-bottom: 0;">※ 게시물 신고는 신고 게시판을 이용해 주시기 바랍니다.</p>
+							</div>
+
+						</div>
+						<!-- //나쁜게시물신고 -->
+
+						<!-- 나쁜글접수 작은사이즈 팝업 w_s-->
+						<div id="bad_ok" class="r_popup w_s"
+							style="display: none; top: -230px; left: 400px;">
+
+							<div class="r_popup_title">
+								<span>나쁜글 선택하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>접수되었습니다.</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //나쁜글접수 -->
+
+						<!-- 나쁜글이미참여 -->
+						<div id="bad_again" class="r_popup w_s"
+							style="display: none; top: -230px; left: 400px;">
+
+							<div class="r_popup_title">
+								<span>나쁜글 선택하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>이미 나쁜글로 접수된 게시물입니다.</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //나쁜글이미참여 -->
+
+						<!-- 나쁜글이미신고 -->
+						<div id="bad_already" class="r_popup"
+							style="display: none; top: -230px;">
+
+							<div class="r_popup_title">
+								<span>나쁜글 선택하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>
+									해당 게시물은 이미 나쁜글 신고 접수가 완료된 게시물 입니다. <br />신속히 처리할 수 있도록 최선을
+									다하겠습니다.
+								</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //나쁜글이미신고 -->
+
+						<!-- 나쁜글허위신고 -->
+						<div id="bad_fake" class="r_popup"
+							style="display: none; top: -230px;">
+							<div class="r_popup_title">
+								<span>나쁜글 신고하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+							<div class="r_popup_content">
+								<p>허위 신고 및 주관적인 신고 건으로 나쁜글 접수가 되지 않았습니다.</p>
+								<p>
+									<a class="r_report r_ok" href="javascript:;">확인</a>
+								</p>
+							</div>
+						</div>
+						<!-- //나쁜글허위신고 -->
+
+						<!-- 음란글접수 -->
+						<div id="adult_ok" class="r_popup w_s"
+							style="display: none; top: -230px; left: 400px;">
+							<div class="r_popup_title">
+								<span>음란 게시물 신고하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>음란 게시물로 신고되었습니다.</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //음란글접수 -->
+
+						<!-- 음란글이미접수 -->
+						<div id="adult_again" class="r_popup w_s"
+							style="display: none; top: -230px; left: 400px;">
+							<div class="r_popup_title">
+								<span>음란글 신고하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>이미 신고하신 게시물입니다.</p>
+								<p class="btn_box_1">
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //음란글이미접수 -->
+
+						<!-- 음란글접수완료 -->
+						<div id="adult_already" class="r_popup"
+							style="display: none; top: -230px;">
+
+							<div class="r_popup_title">
+								<span>음란글 신고하기</span> <a class="r_close" href="javascript:;">X</a>
+							</div>
+
+							<div class="r_popup_content">
+								<p>
+									해당 게시물은 이미 음란글 신고 접수가 완료된 게시물 입니다. <br />신속히 처리할 수 있도록 최선을
+									다하겠습니다.
+								</p>
+								<p>
+									<a class="r_report r_ok" href="javascript:;"><img
+										src="http://nstatic.dcinside.com/dgn/gallery/images/btn_ok.png"
+										alt="확인" /></a>
+								</p>
+							</div>
+						</div>
+						<!-- //음란글이미접수 -->
+					</div>
+					<!--// popup div group - end //-->
+
+
+					<!-- re_gall_box_3 -->
+				<div class="re_gall_box_3">
+						<div class="box_file">
+							<p>
+								<b>원본 첨부파일&nbsp;<span>(1)</span></b>
+							</p>
+							<ul class="appending_file"
+								style="width: 1086px; overflow: hidden; word-wrap: break-word;">
+<li class="icon_pic"><a href="http://image.dcinside.com/download.php?id=23b4de32e0dc3ca9&no=29bcc427b38377a16fb3dab004c86b6f6b6cb2befff220e35c8f9a3dd0b36854822604c7ffeaddde53e201460a4abce876aca751d77ff95c58caf737bb8e4a2a7aa9dfc0fc0f3dbe362ce15f84f87e2f23bbaacdcddaaa&f_no=09b2c728e9dd39a251ed86e443ee746a4579763c96fce38244b4eec1784c2c08">Download_2015_07_31_11_02_55.jpg</a></li>						</ul>
+						</div>
+					</div>
+
+				<!-- //re_gall_box_3 -->
+
+
+
+<div style="width:100%;margin-top:10px;">
+      <center><iframe width='1100' height='140' src='http://exttag.about.co.kr/cgi-bin/PelicanC.dll?impr?pageid=00gW&out=iframe' allowTransparency = 'true' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling='no' ></iframe></center></div>				<br />
+					<!-- re_gall_box_4 -->
+					<div class="re_gall_box_4">
+
+
+
+						<!-- gallery_re -->
+						<div class="gallery_re" id="gallery_re">
+							<!-- gallery_re_title -->
+							<div class="gallery_re_title">
+								<img src="http://nstatic.dcinside.com/dgn/gallery/images/title_re.gif" alt="전체댓글수"/><span id="re_count">19</span>
+							</div>
+							<!-- //gallery_re_title -->
+							<!-- gallery_re_btn -->
+							<ul class="gallery_re_btn">
+								<!-- <li class="btn_all"><a href="#" /></a></li>전체보기 -->
+	                            <input type="hidden" id="comment_hide" value="N">
+								<li class="btn_all_off" id="comment_btn"><a href="javascript:;" onClick="javascript:comment_btn();" /></a></li><li class="btn_reply"><a href="javascript:;"  onClick="javascript:comment_refrash();"/></a></li>
+							</ul>
+							<!-- //gallery_re_btn -->
+						</div>
+					    <!-- //gallery_re -->
+                   <!-- gallery_re_list -->
+						<div class="gallery_re_list" id="gallery_re_list">
+
+						    <!--  gallery_re_contents -->
+							<table class="gallery_re_contents" id="gallery_re_contents" style="width:100%;">
+								<input type="hidden" id="meta_description_comment" value="">
+                                <colgroup>
+                                    <col width="180" />
+                                    <col width="" />
+                                    <col width="150" />
+                                    <col width="50" />
+                                </colgroup>
+
+<div id="comment_list" style="z-index:10;">
+        <div id="reply1" style="position:relative;z-index:12;">
+
+                <div id="dgn_voice_pop_info" style="display:none;z-index:99999;">
+                    <div class="pop_info_top"></div>
+                     <div class="pop_info_con">
+                        <div class="ibox_1">
+                            <span><img src="http://wstatic.dcinside.com/gallery/images/voice/title_voice.gif" alt="보이스리플이란?"/></span><a onclick="javascript:vr_guide_closed();" class="btn_close" style="cursor:pointer;"><img src="http://wstatic.dcinside.com/gallery/images/voice/btn_delete_pop.gif" alt="닫기 버튼 "></a>
+                        </div>
+                        <div class="ibox_2">
+                            보이스리플이란?  갤러리 게시물에 일반 텍스트 형태가 아닌 <b>음성</b>으로 리플을 등록할 수 있는 기능 입니다.
+                            <p>보이스리플 등록은 스마트폰 전용 어플리케이션을 설치하신후 모바일웹(m.dcinside.com)을 통해 등록 할 수 있습니다.</p>
+                        </div>
+                        <div class="ibox_3">
+                            <p>[전용 어플리케이션 다운 안내]</p>
+                            <div class="voice_url"><b>접속 URL</b><span><a href="http://m.dcinside.com/voice_guide.html">http://m.dcinside.com/voice_guide.html</a></span></div><div class="voice_txt" ><span>※스마트폰 브라우저 주소창에 위 주소를 입력 또는 우측 qr코드를 스캔해 다운 받을 수 있습니다. </span> </div>
+
+                            <img src="http://wstatic.dcinside.com/gallery/images/voice/qrcode_voice.gif" alt="qr code" class="voice_qr">
+                        </div>
+                    </div>
+                    <div class="pop_info_bottom"></div>
+                </div>
+        </div>
+
+
+
+                            </div>
+
+
+
+                            </table>
+                            <!--  //gallery_re_contents -->
+
+
+
+<!-- gallery_p_b -->
+<div class="gallery_p_b" >
+		<!-- gallery_re_paging  -->
+
+<div class="gallery_re_paging" id="pager"></div>
+
+		<!-- //gallery_re_paging  -->
+
+		<!-- gallery_re_btn -->
+		<div class="gallery_re_btn_wrap" >
+				<ul class="gallery_re_btn"  style="top:-24px;right:15px">
+					<!-- <li class="btn_all"><a href="#" /></a></li>전체보기 -->
+                    <!--input type="hidden" id="comment_hide" value="N"-->
+					<!-- <li class="btn_all_off" id="comment_btn"><a href="javascript:;" /></a></li><li class="btn_reply" id="comment_refrash"><a href="javascript:;" /></a></li> -->
+					<li class="btn_all_off"><a href="javascript:;" onClick="javascript:comment_btn();"/></a></li><li class="btn_reply" ><a href="javascript:;" onClick="javascript:comment_refrash();"/></a></li>
+				</ul>
+		</div>
+		<!-- //gallery_re_btn -->
+
+</div>
+<!-- //gallery_p_b -->
+
+<script type="text/javascript">
+
+    $(document).ready(comment_list('19'));
+
+    var Pager = {
+                 pageIndexChanged: function(selectedPage) {
+                _currentPage = selectedPage;
+                
+                comment_page('19');
+
+            }
+    }
+</script>
+
+
+							<!-- gallery_re_form -->
+							<div class="gallery_re_form">
+
+								<!-- //140515 실명인증확인 서비스 안내 -->
+<form action="http://gall.dcinside.com/?/forms/comment_submit" method="post" accept-charset="utf-8" name="comment_write" id="comment_write"><div style="display:none">
+<input type="hidden" name="ci_t" value="e23b61f42cb31b32eba8bfb5ff6be1e9" />
+</div><br/>
+
+                                <div class="re_input">
+									<div>
+										<ul>
+											<li><input type="text" name="name" id="name"    class="re_name re_in" onFocus="this.style.background='#FFFFFF'"  /></li>
+											<li><input type="password" name="password" id="password"   class="re_pw re_in" onFocus="this.style.background='#FFFFFF'" /></li>
+
+										</ul>
+									</div>
+									<div style="margin:0;padding:0;">
+									<input type="hidden" name="user_ip" id="user_ip" value="182.211.75.197"/>
+									<textarea  type="text" name="memo "id="memo" class="re_textarea" style="width:780px;height:36px;" maxlength="400" onKeyup="javascript:reply_length_count();"></textarea>
+                                    </div>
+									<div>
+                                        <img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_re_1.gif" width="67" height="46" class="" style="border:none;margin-left:1px;*margin-left:5px;cursor:pointer;" id="re_write"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_re_2.gif" width="75" height="46" style="border:none;margin-left:5px;margin-right:15px;cursor:pointer;" id="re_write_vote">
+                                    </div>
+
+								</div>
+</form>
+
+
+
+							<div class="dccone"><!-- 20141210 디시콘 -->
+									<div class="dcconeBtn"><button type="button" id="tx_dccone"><span class="cone_comm sticker">디시콘 스티커</span></button><button onclick="$('.guideLayer').toggle();"><span class="cone_comm guide">이용안내</span></button></div>
+
+									<style type="text/css">
+	#div_con { position:absolute; top:0; left:0; background:#FFF; z-index:9999; display:; }
+</style>
+
+<div id="div_con" class="dccone add_editor" style="display:none;">
+	<div class="dcconeLayer add_editor">
+		<button type="button" class="btn_set prev_btn"><span class="screen_out">이전</span></button>
+		<ul class="s_icons">
+			<li class="li_recent">
+				<button type="button" class="recent s_icon_comm smile_btn" con_code="recent">즐겨찾기</button>
+				<div class="icon_list" style="display:;"></div>
+			</li>
+			<li class="li_shop">
+				<button type="button" class="shop s_icon_comm shop_btn" con_code="shop">샵</button>
+			</li>
+			<li class="li_setting">
+				<button type="button" class="setting s_icon_comm admin_btn">관리</button>
+			</li>
+		</ul>
+		<button type="button" class="btn_set next_btn"><span class="screen_out">이후</span></button>
+	</div>
+</div>
+									<div class="guideLayer" style="display:none;"><!-- 20141210 이용안내 -->
+										<div class="inner">
+											<p><span class="cone_comm title">디시콘 이용안내</span></p>
+											<ul>
+												<li>디시콘은 로그인/비로그인 전부 이용 가능합니다.</li>
+												<li>비로그인 시 디시콘은 제공되는 기본 디시콘만 사용 가능합니다.</li>
+												<li>로그인 후 디시콘샵에서 유료/무료 디시콘을 구매하여 사용 가능합니다.</li>
+												<li>디시콘은 목록에서 최대 10개까지 노출 가능하며,<br/>목록 순서는 ‘디시콘 관리’메뉴에서 자유롭게 변경하실 수 있습니다.<br/>* 단, ‘디시콘 관리’ 메뉴는 로그인 후 사용 가능합니다.</li>
+												<li>본인이 직접 디시콘을 제작/판매하여 사용하실 수 있습니다.<br/><a href="http://mall.dcinside.com/?from=A08&url=http://dccon.dcinside.com/guide/" target="_blank">디시콘 제작 바로가기</a></li>
+												<li><span style="color:red">디시콘 이미지 등록/판매/사용 시 저작권, 음란물, 초상권 및 기타 법적 사항에 위배되는 경우 관련 법령에 따라 처벌 될 수 있으며, 별도 통보 없이 판매중지/삭제 됩니다.</span></li>
+											</ul>
+											<a onclick="$('.guideLayer').toggle();" class="cone_comm btn_close"><span class="screen_out">닫기</span></a>
+										</div>
+									</div>
+								</div><!--// 20141210 디시콘 -->
+
+							</div>
+							<!-- //gallery_re_form -->
+
+<script type='text/javascript'>
+
+    window.onload = function() {
+        init();
+    }
+
+    var observe;
+    if (window.attachEvent) {
+        observe = function (element, event, handler) {
+            element.attachEvent('on'+event, handler);
+        };
+    }
+    else {
+        observe = function (element, event, handler) {
+            element.addEventListener(event, handler, false);
+        };
+    }
+
+    function init() {
+
+        var text = document.getElementById('memo');
+        function resize () {
+
+            text.style.height = 'auto';
+            text.style.height = text.scrollHeight+10+'px';
+
+        }
+        /* 0-timeout to get the already changed text */
+        function delayedResize () {
+            window.setTimeout(resize, 0);
+        }
+        observe(text, 'change',  resize);
+        observe(text, 'cut',     delayedResize);
+        observe(text, 'paste',   delayedResize);
+        observe(text, 'drop',    delayedResize);
+        observe(text, 'keydown', delayedResize);
+
+        resize();
+
+    }
+
+  $('#memo,#name,#password').keypress(function(e){
+
+    if(e.keyCode == 13) {
+
+        $('#memo').blur();
+        var msg = $("#memo").val().replace("\r\n", "");
+        $("#memo").val(msg);
+
+        var msg = $("#memo").val().replace("\n", "");
+        $("#memo").val(msg);
+
+        ls_str2 = $('#memo').val().substr(0, 400);
+        $("#memo").val(ls_str2);
+
+
+
+
+    $('#re_write').click();
+
+
+     }
+
+  });
+
+
+
+
+</script>					</div>
+						<div class="gallery_re" id="gallery_re_bar"
+							style="border-bottom: 1px solid #D3D3D3; display: none;"></div>
+						<!-- //gallery_reply_list -->
+
+
+
+
+				</div>
+					<!-- //re_gall_box_44 -->
+
+<!--  gallery_d_btn -->
+<div class="gallery_btn_bottom">
+	<!-- 131115 수정 -->
+	<div class="btn_bottom">
+		<span class="f_l">
+
+                        <!-- 130807 버튼 추가  -->
+
+<a href=/board/lists/?id=nintendo><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_list_all_on.png" alt="전체목록" class="f_l f_l_m"/></a><a href="/board/lists/?id=nintendo&page=1&exception_mode=recommend" class="f_l f_l_m"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_bottom_best_1_off.png" alt="개념글"></a><a href="/board/lists/?id=nintendo&page=1&exception_mode=best" class="f_l f_l_m"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_bottom_best_2_off.png" alt="일간베스트"/></a>
+
+	</span>
+	<span class="f_r">
+
+                        <a href="/board/delete/?id=nintendo&no=2876913"><img src="http://wstatic.dcinside.com/dgn/gallery/images/btn_d_del.gif"  alt="삭제"/></a>&nbsp;<a href="/board/modify/?id=nintendo&no=2876913"><img src="http://wstatic.dcinside.com/dgn/gallery/images/btn_d_correct.gif"  alt="수정"/></a>&nbsp;
+
+
+<a href="/board/write/?id=nintendo"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_d_write.gif"  alt="글쓰기"/></a>
+
+		</span>
+	</div>
+	<!-- //131115 수정 -->
+</div>
+<!--  //gallery_d_btn -->
+
+			</div>
+				<!-- //dgn_content_de -->
+			</div>
+			<!-- //dgn_gallery_detail -->
+		</div>
+		<!-- //dgn_gallery_wrap -->
+
+
+		<!-- dgn_wide 130808 추가 수정 -->
+		<div id="dgn_wide">
+
+			<!-- dgn_gallery_wrap -->
+			<div id="dgn_gallery_wrap">
+
+
+				<!-- gallery_left -->
+				<div id="dgn_gallery_left">
+
+					<!-- gallery_list class="bg_tab_on" 활성화-->
+					<div class="gallery_list" style="padding: 0">
+
+						<div class="list_table" style="border-top: 2px solid #5b7ce5">
+
+							<table width="100%">
+								<colgroup>
+								<col width="7%"></col>
+								<col width=""></col>
+								<col width="14%"></col>
+																<col width="7%"></col>
+								<col width="6%"></col>
+																<col width="3%"></col>
+								</colgroup>
+								<thead class="list_thead">
+									<tr>
+										<th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_no.gif" alt="번호"/></th>
+										<th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_subject.gif" alt="제목"/></th>
+										<th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_writer.gif" alt="글쓴이"/></th>
+										<th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_date.gif" alt="날짜"/></th>
+																				<th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_hit.gif" alt="조회수"/></th>
+                                        <th><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_recommend.gif" alt="추천수"/></th>
+                                        									</tr>
+
+
+								</thead>
+								<!-- class="tb" 공지 업다운 리스트 생길때 아래 여백 높이값 조절해줌 -->
+								<tbody class="list_tbody">
+
+	<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+		<td class="t_notice">공지</td>
+		<td class="t_subject"><a href='http://www.dcnews.in/main/index.html#poll_title' target="_blank" class="icon_notice"><b>2016년 디시인사이드 메인 모델로 가장 적합하다고 생각되는 인물은?</b></a></td>
+		<td class="t_writer user_layer" user_name=" 운영자" style="cursor:pointer;"><b> 운영자</b></td>
+		<td class="t_date">2015/09/16</td>
+				<td class="t_hits"></td>
+		<td class="t_hits"></td>
+			</tr>
+	<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+		<td class="t_notice">공지</td>
+		<td class="t_subject"><a href='http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text?cmpnno%3D7135%26adsno%3D1%26locno%3D2971%26ctvno%3D34447%26clkno%3D28882' target="_blank" class="icon_notice"><b>[특가] 활용도 높은 SPG 포인트 공동구매! 디시에시만 특별 할인!</b></a></td>
+		<td class="t_writer user_layer" user_name="운영자" style="cursor:pointer;"><b>운영자</b></td>
+		<td class="t_date">2015/09/18</td>
+				<td class="t_hits"></td>
+		<td class="t_hits"></td>
+			</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >공지</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=1321157" class=" icon_notice">[공지] 닌텐도 DS갤러리 통합공지 Ver. 2012</a><a href="/board/comment_view/?id=nintendo&no=1321157"><em>[182]</em></a></td>
+										<td class="t_writer user_layer" user_id='hukmay' user_name="쟈이즈" style="cursor:pointer;"><span title='쟈이즈'>쟈이즈</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='hukm**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/hukmay');"></span></td>
+										<td class="t_date" title="2012.07.31 22:07:45">2012.07.31</td>
+																				<td class="t_hits">22588</td>
+                                        <td class="t_hits">15</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >공지</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=25178" class=" icon_notice"><b><font color=red>불법 다운로드 및 복제 관련 게시물 등록에 주의해주십시오.</b></a><a href="/board/comment_view/?id=nintendo&no=25178"><em>[211]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="운영자" style="cursor:pointer;"><span title='운영자'>운영자</span></td>
+										<td class="t_date" title="2007.05.18 14:02:47">2007.05.18</td>
+																				<td class="t_hits">132319</td>
+                                        <td class="t_hits">10</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >공지</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=1" class=" icon_notice"><b>닌텐도 DS에 관련된 사진과 내용을 올려주시기 바랍니다.</b></a><a href="/board/comment_view/?id=nintendo&no=1"><em>[448]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="운영자" style="cursor:pointer;"><span title='운영자'>운영자</span></td>
+										<td class="t_date" title="2007.02.02 16:57:46">2007.02.02</td>
+																				<td class="t_hits">44039</td>
+                                        <td class="t_hits">8</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879037</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879037" class="icon_txt_n">테스트</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="asdf" style="cursor:pointer;"><span title='asdf'>asdf</span></td>
+										<td class="t_date" title="2015.09.21 04:56:19">2015.09.21</td>
+																				<td class="t_hits">3</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879036</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879036" class="icon_txt_n">제가 한 닌자대전영상 보구왓어요ㅎㅎ</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="mmk" style="cursor:pointer;"><span title='mmk'>mmk</span></td>
+										<td class="t_date" title="2015.09.21 04:11:56">2015.09.21</td>
+																				<td class="t_hits">13</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879035</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879035" class="icon_pic_n">야 ㅁㅈㄹㅇ ㄱㅁ 정발로 나왔냐?</a><a href="/board/comment_view/?id=nintendo&no=2879035"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="spe blue" style="cursor:pointer;"><span title='spe blue'>spe blu.</span></td>
+										<td class="t_date" title="2015.09.21 04:02:35">2015.09.21</td>
+																				<td class="t_hits">17</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879034</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879034" class="icon_txt_n">뉴작다수에 겜하나사면 얼마쯤이양</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="ㅇㅇ" style="cursor:pointer;"><span title='ㅇㅇ'>ㅇㅇ</span></td>
+										<td class="t_date" title="2015.09.21 03:56:10">2015.09.21</td>
+																				<td class="t_hits">9</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879033</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879033" class="icon_pic_n">'최고의 칸무스' 여론조사 결과, 토키츠카제 1위</a></td>
+										<td class="t_writer user_layer" user_id='gazeto' user_name="가메이징" style="cursor:pointer;"><span title='가메이징'>가메이징</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='gaze**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/gazeto');"></span></td>
+										<td class="t_date" title="2015.09.21 03:52:30">2015.09.21</td>
+																				<td class="t_hits">16</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879032</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879032" class="icon_txt_n">부산홀리데이나이트 박부장 "부킹왕"입니다</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="닉" style="cursor:pointer;"><span title='닉'>닉</span></td>
+										<td class="t_date" title="2015.09.21 03:40:33">2015.09.21</td>
+																				<td class="t_hits">13</td>
+                                        <td class="t_hits">1</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879031</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879031" class="icon_pic_n">시벌 kago메갸라 뭐야ㅋㅋㅋㅋㅋㅋ</a><a href="/board/comment_view/?id=nintendo&no=2879031"><em>[4]</em></a></td>
+										<td class="t_writer user_layer" user_id='n604r' user_name="n604r" style="cursor:pointer;"><span title='n604r'>n604r</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='n60**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/n604r');"></span></td>
+										<td class="t_date" title="2015.09.21 03:29:48">2015.09.21</td>
+																				<td class="t_hits">36</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879030</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879030" class="icon_pic_n">몬스터헌터 4만 사는건 뭐야 시발</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="뀨" style="cursor:pointer;"><span title='뀨'>뀨</span></td>
+										<td class="t_date" title="2015.09.21 03:23:41">2015.09.21</td>
+																				<td class="t_hits">26</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879029</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879029" class="icon_txt_n">컴터 잡기 하향점</a></td>
+										<td class="t_writer user_layer" user_id='olzlmax' user_name="함정라이더" style="cursor:pointer;"><span title='함정라이더'>함정라이더</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='olzlm**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/olzlmax');"></span></td>
+										<td class="t_date" title="2015.09.21 03:17:51">2015.09.21</td>
+																				<td class="t_hits">6</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879027</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879027" class="icon_pic_n">머난투하면서 존재를 알게된 게임이 많다</a></td>
+										<td class="t_writer user_layer" user_id='' user_name="뀨" style="cursor:pointer;"><span title='뀨'>뀨</span></td>
+										<td class="t_date" title="2015.09.21 03:03:14">2015.09.21</td>
+																				<td class="t_hits">29</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879026</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879026" class="icon_pic_n">닌자대전 패자부활전이</a><a href="/board/comment_view/?id=nintendo&no=2879026"><em>[3]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="섹시재인" style="cursor:pointer;"><span title='섹시재인'>섹시재인</span></td>
+										<td class="t_date" title="2015.09.21 02:56:49">2015.09.21</td>
+																				<td class="t_hits">37</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879025</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879025" class="icon_pic_n">갓게임 MOTHER도 안해본 닌알못새끼들</a><a href="/board/comment_view/?id=nintendo&no=2879025"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="des-충성이동클럽" style="cursor:pointer;"><span title='des-충성이동클럽'>des-충성이.</span></td>
+										<td class="t_date" title="2015.09.21 02:51:09">2015.09.21</td>
+																				<td class="t_hits">31</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879024</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879024" class="icon_txt_n">네스는 어디캐릭터임?</a><a href="/board/comment_view/?id=nintendo&no=2879024"><em>[3]</em></a></td>
+										<td class="t_writer user_layer" user_id='olzlmax' user_name="함정라이더" style="cursor:pointer;"><span title='함정라이더'>함정라이더</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='olzlm**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/olzlmax');"></span></td>
+										<td class="t_date" title="2015.09.21 02:49:39">2015.09.21</td>
+																				<td class="t_hits">31</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879023</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879023" class="icon_pic_n">왜닌조용</a></td>
+										<td class="t_writer user_layer" user_id='pokesp98' user_name="폴乙ㅣ곤" style="cursor:pointer;"><span title='폴乙ㅣ곤'>폴乙ㅣ곤</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='pokesp**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/pokesp98');"></span></td>
+										<td class="t_date" title="2015.09.21 02:44:14">2015.09.21</td>
+																				<td class="t_hits">10</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879022</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879022" class="icon_pic_n">ㅇㅋ 시험끝나고 결제해야지</a><a href="/board/comment_view/?id=nintendo&no=2879022"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='songhm8' user_name="아그니카루☆" style="cursor:pointer;"><span title='아그니카루☆'>아그니카루☆</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='songh**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/songhm8');"></span></td>
+										<td class="t_date" title="2015.09.21 02:26:30">2015.09.21</td>
+																				<td class="t_hits">19</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879021</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879021" class="icon_txt_n">왤케 아이크만하면 a공격을 안쓰게되는거지</a></td>
+										<td class="t_writer user_layer" user_id='olzlmax' user_name="함정라이더" style="cursor:pointer;"><span title='함정라이더'>함정라이더</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='olzlm**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/olzlmax');"></span></td>
+										<td class="t_date" title="2015.09.21 02:25:20">2015.09.21</td>
+																				<td class="t_hits">18</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879020</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879020" class="icon_pic_n">사실 할거는 많음</a><a href="/board/comment_view/?id=nintendo&no=2879020"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='songhm8' user_name="아그니카루☆" style="cursor:pointer;"><span title='아그니카루☆'>아그니카루☆</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='songh**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/songhm8');"></span></td>
+										<td class="t_date" title="2015.09.21 02:20:01">2015.09.21</td>
+																				<td class="t_hits">26</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879019</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879019" class="icon_pic_n">밥주세요</a><a href="/board/comment_view/?id=nintendo&no=2879019"><em>[2]</em></a></td>
+										<td class="t_writer user_layer" user_id='dpdlftkd' user_name="미코토☆" style="cursor:pointer;"><span title='미코토☆'>미코토☆</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='dpdlft**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/dpdlftkd');"></span></td>
+										<td class="t_date" title="2015.09.21 02:18:54">2015.09.21</td>
+																				<td class="t_hits">21</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879018</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879018" class="icon_pic_n">씹덕들 존나웃긴점</a><a href="/board/comment_view/?id=nintendo&no=2879018"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='chk0131' user_name="블랫" style="cursor:pointer;"><span title='블랫'>블랫</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='chk01**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/chk0131');"></span></td>
+										<td class="t_date" title="2015.09.21 02:16:42">2015.09.21</td>
+																				<td class="t_hits">31</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879017</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879017" class="icon_pic_n">와우 5일남았는데 똥파나 할까</a><a href="/board/comment_view/?id=nintendo&no=2879017"><em>[7]</em></a></td>
+										<td class="t_writer user_layer" user_id='songhm8' user_name="아그니카루☆" style="cursor:pointer;"><span title='아그니카루☆'>아그니카루☆</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='songh**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/songhm8');"></span></td>
+										<td class="t_date" title="2015.09.21 02:11:58">2015.09.21</td>
+																				<td class="t_hits">36</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879016</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879016" class="icon_pic_n">야이 닌갤러새끼들아</a><a href="/board/comment_view/?id=nintendo&no=2879016"><em>[3]</em></a></td>
+										<td class="t_writer user_layer" user_id='tkdgur492' user_name="QT☆부기" style="cursor:pointer;"><span title='QT☆부기'>QT☆부기</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='tkdgur4**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/tkdgur492');"></span></td>
+										<td class="t_date" title="2015.09.21 02:10:47">2015.09.21</td>
+																				<td class="t_hits">26</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879015</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879015" class="icon_pic_n">으앙배고파</a><a href="/board/comment_view/?id=nintendo&no=2879015"><em>[3]</em></a></td>
+										<td class="t_writer user_layer" user_id='dpdlftkd' user_name="미코토☆" style="cursor:pointer;"><span title='미코토☆'>미코토☆</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='dpdlft**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/dpdlftkd');"></span></td>
+										<td class="t_date" title="2015.09.21 02:06:22">2015.09.21</td>
+																				<td class="t_hits">29</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879014</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879014" class="icon_pic_n">로보틱스노츠 한다고 머난투 연습못함</a><a href="/board/comment_view/?id=nintendo&no=2879014"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='chk0131' user_name="블랫" style="cursor:pointer;"><span title='블랫'>블랫</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='chk01**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/chk0131');"></span></td>
+										<td class="t_date" title="2015.09.21 02:00:53">2015.09.21</td>
+																				<td class="t_hits">24</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879013</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879013" class="icon_pic_n">12시인줄 알고 있었는데</a><a href="/board/comment_view/?id=nintendo&no=2879013"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='blancspace' user_name="금앵?" style="cursor:pointer;"><span title='금앵?'>금앵?</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='blancspa**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/blancspace');"></span></td>
+										<td class="t_date" title="2015.09.21 02:00:25">2015.09.21</td>
+																				<td class="t_hits">28</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879012</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879012" class="icon_pic_n">야이 닌갤러새끼들아</a><a href="/board/comment_view/?id=nintendo&no=2879012"><em>[4]</em></a></td>
+										<td class="t_writer user_layer" user_id='dumberr' user_name="델류" style="cursor:pointer;"><span title='델류'>델류</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='dumbe**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/dumberr');"></span></td>
+										<td class="t_date" title="2015.09.21 01:59:45">2015.09.21</td>
+																				<td class="t_hits">43</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879011</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879011" class="icon_pic_n">하않지쪄</a><a href="/board/comment_view/?id=nintendo&no=2879011"><em>[3]</em></a></td>
+										<td class="t_writer user_layer" user_id='blancspace' user_name="금앵?" style="cursor:pointer;"><span title='금앵?'>금앵?</span><span class='right_nick'><img src='http://wstatic.dcinside.com/gallery/skin/gallog/g_fix.gif' border=0 title='blancspa**(고정닉) : 갤로그로 이동합니다.'  width='12'  height='15'  style='margin-left:2px;cursor:pointer;' onClick="window.open('http://gallog.dcinside.com/blancspace');"></span></td>
+										<td class="t_date" title="2015.09.21 01:58:12">2015.09.21</td>
+																				<td class="t_hits">36</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+
+									<tr onmouseover="this.style.backgroundColor='#eae9f7'" onmouseout="this.style.backgroundColor=''" class="tb">
+										<td class="t_notice" >2879010</td>
+										<td class="t_subject"><a href="/board/view/?id=nintendo&no=2879010" class="icon_pic_n">루세트 겁탈당할때 좀꼴렷음</a><a href="/board/comment_view/?id=nintendo&no=2879010"><em>[1]</em></a></td>
+										<td class="t_writer user_layer" user_id='' user_name="내국인스케이트" style="cursor:pointer;"><span title='내국인스케이트'>내국인스케이트</span></td>
+										<td class="t_date" title="2015.09.21 01:58:03">2015.09.21</td>
+																				<td class="t_hits">33</td>
+                                        <td class="t_hits">0</td>
+                                        									</tr>
+
+								</tbody>
+							</table>
+<input type="hidden" id="a_type" value="regist">
+					</div>
+						<!-- //list_table -->
+
+<!-- 131115 수정 -->
+<div class="btn_bottom">
+
+	<!-- 140430 위너타란? 레이어팝업-->
+<div class="wpopup" id="infoLayer" style="width:640px;display:none;position:absolute;top:-324px;right:0;z-index:1000" >
+	<div class="pinner">
+		<div class="box_top"><h1 class="wh"><img src="http://nstatic.dcinside.com/dgn/winnerta/img/w_popup/pop_tit01.gif" alt="위너타란? 이용자가 참여하는 예측, 설문형 서비스!" /></h1></div>
+		<div style="padding:20px;">
+			<p class="add_txt f_color01">오늘 두산 vs LG 경기 총 안타수는? 오늘 KBS 9시 뉴스 시청률은?</p>
+			<ul class="list_type1">
+				<li>위너타(www.winnerta.com)는 이용자 참여형 예측, 설문형 콘텐츠 서비스로 제휴를 통해 디시인사이드에서도 서비스가 제공됩니다.</li>
+				<li>위너타 포인트를 이용해 위너타를 등록, 응모 할 수 있습니다.</li>
+				<li>응모한 항목이 승리할 경우 진 사람의 포인트를 합산하여 위너포인트가 지급됩니다.</li>
+				<li>제안자는 위너타 응모 포인트의 일정%의 리워드 포인트를 받게 됩니다.</li>
+			</ul>
+			<p style="text-align:right; padding-bottom:15px;"><a href="http://www.winnerta.com/info/prediction" target="_blank"><img src="http://nstatic.dcinside.com/dgn/winnerta/img/w_popup/btn_detail_view.gif" alt="자세히 보기" /></a></p>
+			<p class="add_txt01"><strong>가입 이벤트 진행 중 : 6월 30일까지 가입하시면, 무료 포인트 1,300ⓟ를 드립니다! </strong><span class="add_txt02">(최초 1회만 지급)</span></p>
+		</div>
+		<a href="javascript:;" onclick="toggleLayer('#infoLayer');" class="btn_comm btn_close">닫기</a>
+	</div>
+</div>
+<!-- //140430 위너타란? 레이어팝업-->
+	<span class="f_l">
+
+<a href=/board/lists/?id=nintendo><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_list_all_on.png" alt="전체목록" class="f_l f_l_m"/></a><a href="/board/lists/?id=nintendo&page=1&exception_mode=recommend" class="f_l f_l_m"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_bottom_best_1_off.png" alt="개념글"></a><a href="/board/lists/?id=nintendo&page=1&exception_mode=best" class="f_l f_l_m"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/btn_bottom_best_2_off.png" alt="일간베스트"/></a>
+						</span>
+						<span class="f_r">
+
+<a href="/board/write/?id=nintendo"><img src="http://nstatic.dcinside.com/dgn/gallery/images/btn_write.gif" alt="글쓰기 버튼"/></a>
+						</span>
+					</div>
+					<!-- //131115 수정 -->
+					<!-- btn_paging -->
+					<div id="dgn_btn_paging">
+							
+<a href="javascript:;" class="on">1</a><a href="/board/lists/?id=nintendo&page=2">2</a><a href="/board/lists/?id=nintendo&page=3">3</a><a href="/board/lists/?id=nintendo&page=4">4</a><a href="/board/lists/?id=nintendo&page=5">5</a><a href="/board/lists/?id=nintendo&page=6">6</a><a href="/board/lists/?id=nintendo&page=7">7</a><a href="/board/lists/?id=nintendo&page=8">8</a><a href="/board/lists/?id=nintendo&page=9">9</a><a href="/board/lists/?id=nintendo&page=10">10</a><a href="/board/lists/?id=nintendo&page=11">11</a><a href="/board/lists/?id=nintendo&page=12">12</a><a href="/board/lists/?id=nintendo&page=13">13</a><a href="/board/lists/?id=nintendo&page=14">14</a><a href="/board/lists/?id=nintendo&page=15">15</a><a href="/board/lists/?id=nintendo&page=16">16</a><a href="/board/lists/?id=nintendo&page=17">17</a><a href="/board/lists/?id=nintendo&page=18">18</a><a href="/board/lists/?id=nintendo&page=19">19</a><a href="/board/lists/?id=nintendo&page=20">20</a><a href="/board/lists/?id=nintendo&page=21" class="b_next"><span class="arrow_1">다음</span></a><a href="/board/lists/?id=nintendo&page=79694" class="b_next"><span class="arrow_2">맨뒤&nbsp;&nbsp;</span></a>
+					</div>
+					<!-- //btn_paging -->
+					
+<style>
+#dgn_gallery_left .bottom_search{clear:both;position:relative;width:548px;margin:0 auto;padding:15px 0 0 0;text-align:center;font-size:12px;font-weight:normal;color:#454545;padding-bottom:66px;*padding-bottom:40px;} /*140814 검색옵션 없을 땐 width:420px 있을 땐 width:548px 만 수정하면 됨*/
+#dgn_gallery_left .bottom_search .s_b_box .box_select .box_input{position:relative;width:208px;padding:0 5px;border:0 none;height:21px;line-height:21px;*height:19px;*line-height:19px;font-weight:bold;font-family:dotum,'돋움',AppleGothic;color:#666666}/* 140814*/
+#dgn_gallery_left .select_div ul{position:absolute;top:26px;left:1px;width:120px;border:1px solid #607ee9;background:#fff;text-align:left;padding:0;margin:0}/*전체검색, 검색 140814*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+</style>
+<!--  search_bottom -->
+<div class="bottom_search" style="width:405px">
+		<!-- s_b_box -->
+	<div class="s_b_box">
+		<!-- box_select -->
+		<div class="box_select">
+			<span class="btn_down"><a href="javascript:;" id="search_list">전체</a></span>
+			<span><input type="text" id="search_input" class="box_input"
+				value="" /></span>
+		</div>
+		<!-- //box_select -->
+		<!-- select_div -->
+		<div id="search_list_div" class="select_div clearfix" style="display: none;">
+		<input type="hidden" name="search_type" id="search_type" value="search_all" /><input type="hidden" name="search" id="search" value="old_search" />			<ul>
+				<li><a href="javascript:;" id="search_all">전체</a></li>
+				<li><a href="javascript:;" id="search_subject">제목</a></li>
+				<li><a href="javascript:;" id="search_memo">내용</a></li>
+								<li><a href="javascript:;" id="search_name">글쓴이</a></li>
+								<li><a href="javascript:;" id="search_subject_memo">제목+내용</a></li>
+				<!--li><a href="javascript:;" id="search_name_subject_memo">이름+제목+내용</a></li-->
+			</ul>
+		</div>
+		<!-- //select_div -->
+	</div>
+	<!-- //s_b_box -->
+	<a href="javascript:;" class="s_b_btn" id="search_btn"><img src="http://wstatic.dcinside.com/dgn/gallery/images/b_search_btn.gif" alt="검색" /></a>
+	<!--  //search_bottom -->
+
+</div>
+<!--  //search_bottom -->
+
+<script type='text/javascript'>
+	$('#search_input').keypress(function(e){
+		if(e.keyCode == 13) {
+			$("#search_btn").click();
+
+		}
+	});
+</script>
+
+				</div>
+					<!-- //gallery_list -->
+
+				</div>
+				<!-- //dgn_gallery_left -->
+
+			<!-- dgn_gallery_right -->
+			<div id="dgn_gallery_right" style="padding-top:5px;border-top:2px solid #767676">
+				<input type="hidden" id="ilbe_gallery" value="basketball,lovelive,fishing,fight,hearthstone,comic_new1,tigers,wwe,bike,aoa,girlsday,makeup,game_classic,baseball_new4,stock_new1,football_new5,extra,cat,etc_program1,bicycle,theaterM,watch,giants_new1,food,etc_entertainment2,drama_new,spman,hanwhaeagles,d_fighter_new,worldoftanks">
+				<input type="hidden" id="ilbe_gallery_name" value="농구,러브라이브,낚시,격투,하스스톤,만화,KIA 타이거즈,프로레슬링,바이크,AOA,걸스데이, 메이크업,고전게임,국내야구,주식,해외축구,헬스,야옹이,기타프로그램,자전거,연극-뮤지컬,시계,롯데 자이언츠,기타-음식,해외연예,기타국내드라마,슈퍼맨이 돌아왔다.,한화 이글스,던전앤파이터,월드오브탱크">
+				<!-- 130429 right_box 수정 및 추가 -->
+				<div class="right_box">
+					<!-- right_box_wrap -->
+					<div class="right_box_wrap">
+
+						<!-- r_concept -->
+						<div class="r_concept" style="display:none">
+							<div class="box_title" id="recommend_gallery"><a href="javascript:;" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/title_r_concept.gif" alt="개념글"/></a></div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="recommend"/></a><a href="javascript:;" class="btn_prev_right" target_code="recommend"/></a>
+							</div>
+							
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<div class="con_recommend">
+										<!--div class="con_concept">
+											<li><a href="">비타민 살땐 김약사네</a></li>
+											<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>
+											<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>		
+										</div-->
+									</div>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //r_concept -->
+
+						<!-- r_dbest -->
+						<div class="r_dbest">
+							<input type="hidden" id="ilbe_best_arrno" value="">
+							<div class="box_title">
+								<a href="/board/lists?id=best" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/title_r_dbest.gif" alt="일간 베스트"/></a>
+								<!--  btn_gall_name 130807 추가 -->
+								<div class="btn_gall_name">
+									<ul class="gall_title">
+										<li><div  class="f_gall_blue" id="ilbe_link"></div></li>
+									</ul>
+								</div>
+								<!--  //btn_gall_name  -->
+							</div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="best"/></a><a href="javascript:;" class="btn_prev_right"  target_code="best"/></a>
+							</div>
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<p><a href=""></a></p>
+									<ul class="con_concept">
+										<!--li class="gall_title"><a href=""><span>[아빠어디가?</span>&nbsp;갤러리]</a></li>
+										<li><a href="">비타민 살땐 김약사네</a></li>
+										<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>
+										<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li-->
+										<!--li class="gall_title" id="ilbe_link"></li-->
+										<li id="ilbe_link_0"></li>
+										<li id="ilbe_link_1"></li>
+										<li id="ilbe_link_2"></li>
+										<li id="ilbe_link_3"></li>
+									</ul>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //r_dbest -->
+						
+						<!-- r_hit -->
+						<div class="r_hit">
+							<div class="box_title"><a href="/board/lists/?id=hit" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/title_r_hit.gif" alt="힛"/><span class="icon_r_new"></span></a></div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="hit"/></a><a href="javascript:;" class="btn_prev_right" target_code="hit"/></a>
+							</div>
+							
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<div class="con_hit">
+										<!-- div class="hit_txt"><a href="" class="fix"><p>부산 비앤씨(B&C) 30주년 기념회 참석주년 기념회 참석주년 기념회 참석</p></a></div>
+										<div class="hit_img"><a href=""><span><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/img_r_hit.gif" width="220" height="120"/></span></a></div -->
+									</div>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //r_hit -->
+
+	
+
+						
+						<!-- r_issue -->
+						<div class="r_issue">
+							<div class="box_title"><a href="/board/lists/?id=user_issue" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/title_r_issue.gif" alt="이슈"/><span class="icon_r_new"></span></a></div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="issue"/></a><a href="javascript:;" class="btn_prev_right"target_code="issue"/></a>
+							</div>
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<div class="con_issue">
+										<!--ul>
+											<li class="issue_img"><a href=""><span><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/img_r_issue_1.gif" width="105" height="67"/></span></a></li>
+											<li class="issue_txt"><a href=""><div>[도서]</div><div class="text_subject">체호프 단편 이라고  단편 이라고</div></a></li>
+										</ul>
+										<ul style="margin-left:6px">
+											<li class="issue_img"><a href=""><span><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/img_r_issue_1.gif" width="105" height="67"/></span></a></li>
+											<li class="issue_txt"><a href=""><div>[도서]</div><div class="text_subject">체호프 단편 이라고  단편 이라고</div></a></li>
+										</ul-->
+									</div>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //r_issue -->
+
+
+			
+						<!-- r_phit -->
+						<div class="r_phit">
+							<div class="box_title"><a href="/board/lists?id=hit" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/title_r_phit.gif" alt="그 때 그 HIT"/></a></div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="phit"/></a><a href="javascript:;" class="btn_prev_right" target_code="phit"/></a>
+							</div>
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<div class="con_phit">
+										<!--div class="hit_txt">
+											<a href="" class="fix">
+												<p>사자의 생일잔치사자의 생일잔치사자의 생일잔치사자의 생일잔치사자의 생일잔치</p>
+												<p class="phit_date">작성일&nbsp;2008-12-15</p>
+											</a>
+										</div>
+										<div class="hit_img"><a href=""><span><img src="http://nstatic.dcinside.com/dgn/gallery/images/update/img_r_phit.gif" width="220" height="120"/></span></a></div>
+										<div class="icon_years_ago"><span class="icon_years_5"></span></div-->
+									</div>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //r_phit -->
+						
+						<!-- newsin -->
+						<div class="r_newsin">
+							<div class="box_title"><a href="http://www.dcnews.in" class="box_title_link"><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_newsin.gif" alt="뉴스 in"/></a></div>			
+							<div class="box_btn">
+								<a href="javascript:;" class="btn_prev_left" target_code="dcnews"/></a><a href="javascript:;" class="btn_prev_right" target_code="dcnews"/></a>
+							</div>
+							<!-- box_con -->
+							<div class="box_con">
+								<div class="box_con_wrap">
+									<div class="con_dcnews">
+										<!--ul class="con_img_left">
+											<li class="con_img"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_2.gif" alt="뉴스 이미지" width="85" height="60"/></a></li>
+											<li class="con_txt"><div><a href="">정려원 고난위도 액션신 시작으로 SBS 드라마 캐스팅 완료드라마 캐스팅 완료드라마 캐스팅 완료드라마 캐스팅 완료</a></div></li>
+										</ul-->
+										<!-- 130503 뉴스 텍스트 추가  -->
+										<!-- 
+										<ul class="con_img_left_1">
+											<li><a href="">비타민 살땐 김약사네</a></li>
+											<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>
+											<li><a href="">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>		
+										</ul>
+										 -->
+									</div>
+								</div>	
+							</div>
+							<!-- //box_con -->
+						</div>
+						<!-- //newsin -->
+						
+						<!-- smartlink 
+						<div class="smartlink">
+							<div class="box_title"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/title_smartlink.gif" alt="스마트 링크/쇼핑"/></a></div>			
+							<div class="box_btn">
+								<a href="" class="btn_prev_left"/></a><a href="" class="btn_prev_right"/></a>
+							</div>
+							
+							<div class="box_con">
+								<!-- con_shop_left 
+								<ul class="con_shop_left">
+									<li><a href="" class="line">비타민 살땐 김약사네</a></li>
+									<li><a href="" class="line">실속&효과 코 성형/코 재수술 믿어보세용~오</a></li>	
+								</ul>
+								<!-- con_shop_img 
+								<div class="con_shop_img">
+									<ul>
+										<li class="shop_img_list"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">사랑스러운예쁜봄신상</a></div></li>			
+										<li class="shop_img_list"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">오늘이기회 1 만 원 대</a></div></li>			
+										<li class="shop_img_list"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">인기봄신상여기가젤싸</a></div></li>			
+										<!-- top 여백
+										<li class="shop_img_list top"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">청담동미시27,500원</a></div></li>			
+										<li class="shop_img_list top"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">롯데몰EnC 27,500원</a></div></li>			
+										<li class="shop_img_list top"><a href=""><img src="http://nstatic.dcinside.com/dgn/gallery/images/img_shop_1.gif" width="48" height="48" /></a><div><a href="">인기브랜드27,500원</a></div></li>			
+									</ul>
+								</div>
+								<!-- con_shop_btn 버튼 활성화 on
+								<div class="con_shop_btn"><span><a href="" class="sbtn_prev"></a><a href="" class="sbtn_next on"></a></span></div>
+							</div>
+						</div>
+						<!-- //smartlink -->
+					</div>
+					<!-- //right_box_wrap -->
+					<div class="banner_dc">
+						<p><a href="http://mobile.dcinside.com/" target="_blank"><img src="http://nstatic.dcinside.com/dgn/gallery/images/banner_4.gif" alt="디시인사이드 모바일" width="231" height="43" /></a></p>	
+						<p><a href="javascript:;" id="gallery_information_view"><img src="http://nstatic.dcinside.com/dgn/gallery/images/banner_5.gif" alt="갤러리 소개" width="231" height="43" /></a></p>	
+						<p><a href="/singo/singo_write/?id=singo"><img src="http://nstatic.dcinside.com/dgn/gallery/images/banner_6.gif" alt="신고하기" width="231" height="43" /></a></p>	
+					</div>
+				</div>
+				<!-- //right_box -->
+			</div>
+			<!-- //dgn_gallery_right -->
+
+
+
+
+
+
+
+
+
+		<!-- dgn_footer -->
+		<div id="dgn_footer">
+			<!-- footer_wrap -->
+			<div class="footer_wrap">
+				<!-- footer_cate -->
+				<div class="footer_cate" style="background:none">
+					<div class="cate_menu">
+						<a class="on">음식</a>
+					</div>
+					<div class="cate_gall">
+						<a href="http://gall.dcinside.com/board/lists/?id=alcohol">주류</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=westernfood">양식</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=sweets">과자,빵</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=food_noodle">면식</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=tea">차,음료</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=chicken">치킨</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=pizza">피자</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=fastfood">패스트푸드</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=lotteria">롯데리아</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=mcdonalds">맥도날드</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=cs">편의점</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=food">기타</a>
+					</div>
+				</div>
+				<!-- //footer_cate -->
+
+				<!-- footer_cate -->
+				<div class="footer_cate">
+					<div class="cate_menu">
+						<a class="on">취미</a>
+					</div>
+					<div class="cate_gall">
+						<a href="http://gall.dcinside.com/board/lists/?id=toy">토이</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=doll">인형</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=book">도서</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=fishing">낚시</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=fantasy_new">판타지</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=climbing">등산</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=heroism">무협</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=comic_new1">만화</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=ani1_new1">애니-일본</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=america_ani">애니-미국</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=theatenM">연극,뮤지컬</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=ib">인터넷방송</a>
+					</div>
+				</div>
+				<!-- //footer_cate -->
+
+				<!-- footer_cate -->
+				<div class="footer_cate">
+					<div class="cate_menu">
+						<a class="on">생활</a>
+					</div>
+					<div class="cate_gall">
+						<a href="http://gall.dcinside.com/board/lists/?id=room">ROOM</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=divination">역학</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=lotto2">로또</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=agony">고민</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=diary">다이어리</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=lotto">토토</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=diet">다이어트</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=loveconsultation">연애상담</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=frustration">좌절</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=creditcard">신용카드</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=outsiders">아웃사이더</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=mystery">미스터리</a>
+					</div>
+				</div>
+				<!-- //footer_cate -->
+
+				<!-- footer_cate -->
+				<div class="footer_cate">
+					<div class="cate_menu">
+						<a class="on">스포츠</a>
+					</div>
+					<div class="cate_gall">
+						<a href="http://gall.dcinside.com/board/lists/?id=extra">헬스</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=football_new5">해외축구</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=baseball_new4">국내야구</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=giants_new1">롯데 자이언츠</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=skwyverns">SK 와이번스</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=lgtwins">LG 트윈스</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=doosanbears_new">두산 베어스</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=hanwhaeagles">한화 이글스</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=tigers">KIA 타이거즈</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=samsunglions">삼성 라이온즈</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=sh">넥센 히어로즈</a>
+						<a href="http://gall.dcinside.com/board/lists/?id=ncdinos">NC 다이노스</a>
+					</div>
+				</div>
+				<!-- //footer_cate -->
+			</div>
+			<!-- //footer_wrap -->
+			<!-- footer_btn -->
+			<div class="footer_btn">
+				<!--span><a href="" class="pbtn_prev_on"></a><a href="" class="pbtn_next_off"></a></span-->
+			</div>
+			<!-- //footer_btn -->
+		</div>
+		<!-- //dgn_footer -->
+
+		<!-- dgn_copyright -->
+		<div id="dgn_copyright">
+			<ul>
+				<li style="background:none"><a href="http://wstatic.dcinside.com/info/dc_info01.html">회사소개</a></li>
+				<li><a href="http://wstatic.dcinside.com/info/dc_info03.html">인재채용</a></li>
+				<li><a href="http://wstatic.dcinside.com/info/dc_info02.html#biz">제휴안내</a></li>
+				<li><a href="http://wstatic.dcinside.com/dcad/index.php">광고안내</a></li>
+				<li><a href="http://nstatic.dcinside.com/company/rules/service_policy.html">이용약관</a></li>
+				<li><a href="http://nstatic.dcinside.com/company/rules/info_policy.html"><b>개인정보취급방침</b></a></li>
+				<li><a href="http://nstatic.dcinside.com/company/rules/youth_policy.html">청소년 보호정책</a></li>
+			</ul>
+			<p>Copyright ⓒ 1999 - 2015 <span>dcinside.</span> All rights reserved.</p>
+		</div>
+		<!-- //dgn_copyright -->
+
+        <div style='display:none;'></div><div style='display:none;'></div>
+
+	</div>
+			<!-- //dgn_gallery_wrap -->
+
+
+
+	</div>
+		<!-- //dgn_wide -->
+
+
+				<div style="position:absolute; top:0px; right:0px; left:-39px; ">
+					<script language="javascript" src="http://sosa.semanticrep.com/soea/soea_dcinsidenew.js"></script>
+				</div>
+				
+<div id="alram_area"></div><div class="dgn_g_report" id="comment_count_layer" style="display:none;">	<p class="txt_num" id="txt_division">		<a href="javascript:;" class="new comment_lists_popup" id="new_comment_count" style="display:none;">			<span class="ico_new"></span>			<strong class="em" id="comment_count"></strong>			<span class="ico_up"></span>		</a>		<a href="javascript:;" class="none comment_lists_popup" id="non_comment_count" style="display:none;">			<span class="ico_up"></span>		</a>	</p>	<div style="position:absolute;top:-380px;right:-10px;" id="user_commnet_list">	</div>	<div style="position:absolute;top:-380px;right:-10px;" id="user_comment_set">	</div></div>
+
+
+
+	</div>
+	<!--  //dgn_wrap -->
+
+
+
+<script src="http://ad.adnmore.co.kr/sol/dcinside.js" type="text/javascript"></script>
+
+<!-- 가상주민번호 서비스를 호출하기 위해서는 다음과 같은 form이 필요합니다 -->
+<form name="form_ipin" method="post">
+    <input type="hidden" name="m" value="pubmain">
+    <input type="hidden" name="enc_data" value="AgEEQTYzOFeCWtwKN2ohA2o8d2XrguPPx/5CSuFFwAKGpL2GiSz0o+w4E9M81OlpBWqHiU0V+QkSlj5HLeOjrDgLtgWgYC8AaZFvFloIdmd3ZXckZAvoM2p0XhLQgbZFxhe+VqAJYpZqglWm7LpTCMRudYi/qxMBpZg5tvHcmFTyicaE3Dkxo7Lip8JyvjO1DFoOlYx4+mrMp6/QnX51rR6ECjHAvYbBapfESITBphIUaIRjVDm8rPQ/RAyRJbv4k4Oo/E0JTVuloQp8dI3oCtNFZF9zSB4=" size="500">
+    <!-- 업체에서 응답받기 원하는 데이타를 설정하기 위해 사용. 인증결과 응답시, 해당 값을 그대로 송신함. -->
+    <input type="hidden" name="param_r1" value="">
+    <input type="hidden" name="param_r2" value="">
+    <input type="hidden" name="param_r3" value="">
+</form>
+<div id="w_popup" class="adultDiv" style="position:absolute;width:100%;top:0px;left:0px;display:none;" align="center">
+    <div class="w_popup1" style="position:fixed; top:40%; left:40%; overflow:hidden;" >
+        <div class="w_popup_top">
+            <h1><img src="http://nstatic.dcinside.com/dgn/winnerta/img/h1_txt5.gif" alt="유의사항" /></h1><a class="pop_close" href="javascript:divToggle('.adultDiv');" ><img src="http://nstatic.dcinside.com/dgn/winnerta/img/pop_close.gif" alt="창닫기" /></a>
+        </div>
+        <div class="w_popup_cont">
+            <ul>
+                <li>위너타 등록 및 참여는 19세 미만의 청소년은 참여할 수 없습니다.</li>    
+                <li>등록 및 참여시 최초 1회만 성인인증을 해주시면 이후로는<br />자동으로 이용 가능합니다.</li><br />
+                <li>아래 아이핀인증을 통해 성인인증을 해주시기 바랍니다.</li>
+                
+            </ul>
+        </div>
+        <div class="w_popup_btn">
+			<a><img src="http://nstatic.dcinside.com/dgn/winnerta/img/btn_pop3.gif" alt="아이핀인증" onclick="fnPopup()" /></a>&nbsp;&nbsp;&nbsp;
+		</div>
+        <div class="w_popup_btn"><a style="position:absolute;bottom:10px;left:260px;"><img src="http://nstatic.dcinside.com/dgn/winnerta/img/btn_pop5.gif" alt="다음에하기" onclick="divToggle('.adultDiv');" /></a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+<!--
+	function fnPopup(){
+		$('.adultDiv').hide();
+		window.open('', 'popupIPIN', 'width=450,height=550,top=100,left=100,fullscreen=no,menubar=no,status=no,toolbar=no,titlebar=yes,location=no,scrollbar=no');
+		document.form_ipin.target = "popupIPIN";
+		document.form_ipin.action = "https://cert.vno.co.kr/ipin.cb";
+		document.form_ipin.submit();
+	}
+//-->
+</script>
+
+<!-- 포인트 부족 팝업 -->
+<div class="wpopup" style="width:400px;display:none;" id="pointDiv">
+	<div class="box_top">
+		<h1 style="padding-top:3px;"><img src="http://nstatic.dcinside.com/dgn/winnerta/img/w_popup/pop_tit03.gif" alt="포인트가 부족합니다!" /></h1>
+	</div>
+	<div style="padding:20px;"> 
+		<p style="text-align:center;"><strong>위너타 등록은 위너타 포인트가 있어야 하며 최소 <br /> 1,100 포인트 이상 보유하고 있어야 합니다.</strong></p>
+		<div class="point_box">현재 위너타 포인트 :<strong class="f_color01"><span id="point"></span>ⓟ</strong></div>
+		<p style="padding-top:30px;text-align:center;"><strong>위너타 포인트는 디시 만두로 전환할 수 있습니다. </strong></p>
+		<div class="point_box">보유만두 :<strong class="f_color01"> <span id="mandoo"></span>개</strong>&nbsp;&nbsp;&nbsp;<a href="javascript:;" id="cashReserve" style="text-decoration:underline; color:#666;">만두 충전하러 가기 <img src="http://nstatic.dcinside.com/dgn/winnerta/img/w_popup/btn_arrow01.gif" alt="화살표" style="vertical-align:middle" /></a></div>
+		<p class="box_btn" style="width:215px;">
+			<a href="javascript:;" id="changePop" class="btn_comm btn_point">위너타 포인트 충전</a>
+			<a href="javascript:;" onclick="divToggle('#pointDiv');" class="btn_comm btn_cancel">취소</a>
+		</p>
+		
+	</div>
+	<a href="javascript:;" onclick="divToggle('#pointDiv');" class="btn_comm btn_close">닫기</a>	
+</div>
+<!-- 포인트 부족 팝업 -->
+
+        <style>
+            #cashDiv { position:absolute; width:520px; left:-520px; bottom:0; padding:0; margin:0; z-index:9999;display:none; }
+            #giftDiv { position:absolute; bottom:0; left:-400px; padding:0; margin:0;display:none; }
+        </style>
+        <div id='cashDiv'>
+            <iframe name='cashFrame' id='cashFrame' src='' align='center' width='100%' hspace='0' vspace='0' marginwidth='0' marginheight='0' frameborder='0' framespacing='0' scrolling='no'></iframe>        </div>
+		<div id='giftDiv'>
+			<iframe name='cashGiftFrame' id='cashGiftFrame' src='' align='center' width='100%' hspace='0' vspace='0' marginwidth='0' marginheight='0' frameborder='0' framespacing='0' scrolling='no'></iframe>
+		</div>
+<style>
+#div_neo {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 	px;
+}
+
+#div_neo .btnClose {
+	position: absolute;
+	bottom: 48px;
+	right: 0;
+	width: 19px;
+	height: 19px;
+	background:
+		url('http://neoscreen.neoebiz.co.kr/s/localhost/i/close.png') center
+		no-repeat;
+	display: none;
+}
+
+#div_neo iframe {
+	padding: 0;
+	margin: 0;
+}
+</style>
+<script>
+	/*
+$(document).ready(function(){
+	// 클릭 이벤트 정리
+	$(document).on('click', '#div_neo', function(e) {
+		var target = e.target;
+		// 광고 닫기 버튼
+		if ($(target).hasClass('btnClose'))
+		{
+			$('#div_neo').animate({'height':'0'}, 400, 'swing', function(){
+				// 광고 닫은 후 내부 소스 제거
+				$(this).html('');
+			});
+		}
+	});
+});
+	*/
+</script>
+<script type='text/javascript' src='http://nscreen.neoebiz.co.kr/xJqScreen.php?data=dc_adscreen'></script>
+
+</body>
+</html>
+

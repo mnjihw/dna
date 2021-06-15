@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_nvme_test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <DockPanel>
+        <WebBrowser x:Name="browser"/>
         <ToolBar DockPanel.Dock="Top" VerticalAlignment="Top">
             <Button Content="-" Width="50" Command="{Binding MinusCommand}" IsEnabled="{Binding MinusEnable}"/>
             <TextBox Width="50" Background="#FF8F8A8A" Text="{Binding Number, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>

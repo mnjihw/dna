@@ -1,3 +1,4 @@
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
 #include "common.h"
 
 
@@ -18,12 +19,12 @@ void RFCrypt(int size, const void *in, void *out)
 {
 	static char CryptKey [] = "제시카ㅎㅎ";
 
-	VIRTUALIZER_SHARK_WHITE_START
+	//VIRTUALIZER_SHARK_WHITE_START
 	{
 		for (unsigned int i = 0; i != size; ++i)
 		((char *) out)[i] = ((char *) in)[i] ^ CryptKey[i % (sizeof(CryptKey) - 1)];
 	}
-		VIRTUALIZER_SHARK_WHITE_END
+		//VIRTUALIZER_SHARK_WHITE_END
 }
 
 u_long host2ip(const char *host)
@@ -47,7 +48,7 @@ SOCKET ConnectToServer()
 	FD_SET fds;
 	struct timeval tv;
 
-	VIRTUALIZER_SHARK_WHITE_START
+	//VIRTUALIZER_SHARK_WHITE_START
 	{
 		hSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
 		ioctlsocket(hSock, FIONBIO, (u_long *)"\x01\x00\x00\x00");
@@ -71,7 +72,7 @@ SOCKET ConnectToServer()
 		}
 
 	}
-		VIRTUALIZER_SHARK_WHITE_END
+		//VIRTUALIZER_SHARK_WHITE_END
 		return hSock;
 
 }
@@ -83,7 +84,7 @@ SOCKET _ConnectToServer()
 	FD_SET fds;
 	struct timeval tv;
 
-	VIRTUALIZER_SHARK_WHITE_START
+	//VIRTUALIZER_SHARK_WHITE_START
 	{
 		hSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
 		ioctlsocket(hSock, FIONBIO, (u_long *)"\x01\x00\x00\x00");
@@ -107,7 +108,7 @@ SOCKET _ConnectToServer()
 		}
 
 	}
-		VIRTUALIZER_SHARK_WHITE_END
+		//VIRTUALIZER_SHARK_WHITE_END
 		return hSock;
 
 }
@@ -115,7 +116,7 @@ SOCKET _ConnectToServer()
 
 void getuuid(char *data)
 {
-	VIRTUALIZER_TIGER_BLACK_START
+	//VIRTUALIZER_TIGER_BLACK_START
 	{
 		if (*gen_uuid(data))
 		{
@@ -131,7 +132,7 @@ void getuuid(char *data)
 			*(int *) &data[164] = ~_byteswap_ulong(((int *) data)[9]);
 		}
 	}
-		VIRTUALIZER_TIGER_BLACK_END
+		//VIRTUALIZER_TIGER_BLACK_END
 }
 
 void KillProcess()
@@ -140,7 +141,7 @@ void KillProcess()
 	THREADENTRY32 te32;
 	DWORD current_processid, current_threadid;
 
-	VIRTUALIZER_SHARK_WHITE_START
+	//VIRTUALIZER_SHARK_WHITE_START
 	{
 		if ((hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, 0)) != INVALID_HANDLE_VALUE)
 		{
@@ -166,7 +167,7 @@ void KillProcess()
 		TerminateProcess(GetCurrentProcess(), 0);
 
 	}
-		VIRTUALIZER_SHARK_WHITE_END
+		//VIRTUALIZER_SHARK_WHITE_END
 }
 
 
@@ -174,12 +175,16 @@ void KillProcess()
 void main()
 {
 	char data[2048], message[2048];
+
+	getuuid(data);
+	printf("%s", data);
+	return;
 	SOCKET hSock;
 	int size;
 	char username[128];
 	DWORD username_size = sizeof(username);
 
-	VIRTUALIZER_SHARK_WHITE_START
+	//VIRTUALIZER_SHARK_WHITE_START
 	{
 		SetConsoleTitle("#svchost");
 
@@ -223,5 +228,5 @@ void main()
 		dbg("완료!\n");
 		getchar();
 	}
-		VIRTUALIZER_SHARK_WHITE_END
+		//VIRTUALIZER_SHARK_WHITE_END
 }

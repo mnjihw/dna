@@ -45,7 +45,7 @@ namespace 배민_리뷰_검색
                 notificationTextBlock.Visibility = Visibility.Hidden;
                 return;
             }
-            restaurantListBox.Items.Clear();
+            restaurantComboBox.Items.Clear();
             var result = await Client.GetStringAsync($"http://shopdp-api.baemin.com/v1/SEARCH/shops?keyword={HttpUtility.UrlEncode(restaurantName)}&sort=SORT__DEFAULT&kind=DEFAULT&limit=25&latitude={Latitude}&longitude={Longitude}");
             var json = JsonDocument.Parse(result);
 
@@ -55,8 +55,10 @@ namespace 배민_리뷰_검색
                 var name = shopInformation.GetProperty("shopName").GetString();
                 var id = shopInformation.GetProperty("shopNumber").GetInt32();
                 var restaurant = new Restaurant { Name = name, Id = id };
-                restaurantListBox.Items.Add(restaurant);
+                restaurantComboBox.Items.Add(restaurant);
             }
+
+            restaurantComboBox.IsDropDownOpen = true;
 
         
 
@@ -64,7 +66,7 @@ namespace 배민_리뷰_검색
 
         private async void ReviewSearchButton_Click(object sender, RoutedEventArgs e)
         {
-            if(restaurantListBox.SelectedItem == null)
+            if(restaurantComboBox.SelectedItem == null)
             {
                 notificationTextBlock.Text = "먼저 음식점을 검색 후 선택한 뒤 검색해주세요!";
                 notificationTextBlock.Visibility = Visibility.Visible;
@@ -87,7 +89,7 @@ namespace 배민_리뷰_검색
 
             Client.DefaultRequestHeaders.Clear();
             Client.DefaultRequestHeaders.Add("Authorization", "bearer guest");
-            var restaurantId = (restaurantListBox.SelectedItem as Restaurant).Id;
+            var restaurantId = (restaurantComboBox.SelectedItem as Restaurant).Id;
             const int limit = 50;
 
             
@@ -109,7 +111,7 @@ namespace 배민_리뷰_검색
                         foreach (var image in images.EnumerateArray())
                         {
                             var url = image.GetProperty("url").GetString();
-
+                            
                             var bitmapImage = new BitmapImage();
                             bitmapImage.BeginInit();
                             bitmapImage.UriSource = new Uri(url);
@@ -122,6 +124,7 @@ namespace 배민_리뷰_검색
                             stackPanel.Children.Add(img);
                             stackPanel.Children.Add(textBlock);
                             wrapPanel.Children.Add(stackPanel);
+                            
 
 
                         }

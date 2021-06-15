@@ -1,68 +1,116 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Transforms.TimeSeries;
 
+
 namespace ml.net
 {
+    public class ModelInput
+    {
+        public DateTime Date { get; set; }
+        public float Close { get; set; }
+    }
+
+    public class ModelOutput
+    {
+        public float[] ForecastedClose { get; set; }
+        public float[] LowerBoundClose{ get; set; }
+        public float[] UpperBoundClose { get; set; }
+    }
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
+            
+            /* await using var stream = new FileStream("credentials.json", FileMode.Open, FileAccess.Read);
+             var credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets, new[] { "https://www.googleapis.com/auth/blogger" }, "user", CancellationToken.None, new FileDataStore("Auto.Blogger")).Result;
+             using var service = new BloggerService(new BaseClientService.Initializer
+             {
+                 HttpClientInitializer = credential,
+             });
+             string blogId = "9126739708266783544";
+
+
+             Post insertPost = new Post
+             {
+
+                 Title = "제목입니다",
+                 Content = "<p>HTML콘텐츠를 여기에다가 넣으면 됩니다.</p>",
+                 Published = "2100-12-31T00:00:00+09:00" // 등록 예약을 통한 글 비공개
+             };
+             var image = new ImagesData { Url = @"https://pds.joins.com/news/component/htmlphoto_mmdata/202012/30/d582edd8-4253-4a0c-aed2-c8a0fdf8d0f9.jpg.tn_350.jpg" };
+             var list = new List<ImagesData>
+             {
+                 image
+             };
+             //insertPost.Images = list;
+             insertPost.Content += @"<img src=""" + image.Url + @"""/>" ;
+
+             Console.WriteLine($"'{insertPost.Title}' 글을 등록하겠습니다.");
+             await service.Posts.Insert(insertPost, blogId).ExecuteAsync();
+             Console.WriteLine($"'{insertPost.Title}' 글을 등록완료하였습니다.");
+
+
+             return
+            ;*/
+            
             string rootDir = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../"));
-            string dataPath = Path.Combine(rootDir, "Data", "data.csv");
             string modelPath = Path.Combine(rootDir, "MLModel.zip");
-
-            MLContext mlContext = new MLContext();
-
-            var data = mlContext.Data.LoadFromTextFile<ModelInput>(dataPath, separatorChar: ',', hasHeader: true);
+            var csv = Path.Combine(rootDir, @"Data\data.csv");
             
-            var pipeline = mlContext.Transforms.CustomMapping<ModelInput, CustomMappingOutput>((input, output) =>
+            var columns = new[]
             {
-                output.Mid = (input.High + input.Low) / 2;
-            }, contractName: null);
-            
-            
+                new TextLoader.Column("Date", DataKind.DateTime, 0),
+                /*new TextLoader.Column("Open", DataKind.Single, 1),
+                new TextLoader.Column("High", DataKind.Single, 2),
+                new TextLoader.Column("Low", DataKind.Single, 3),*/
+                new TextLoader.Column("Close", DataKind.Single, 4),
+                /*new TextLoader.Column("AdjClose", DataKind.Single, 5),
+                new TextLoader.Column("Volume", DataKind.UInt32, 6)*/
+            };
+
+            var mlContext = new MLContext();
+
+            IDataView dataView = mlContext.Data.LoadFromTextFile(csv, columns, ',', hasHeader: true);
+
 
             
-            
-            
-            
-/*
-            mlContext.Data.FilterByCustomPredicate<ModelInput>(data, (a) =>
-            {
-                return true;
-            });
-            IDataView firstYearData = mlContext.Data.FilterRowsByColumn(data, "Date", upperBound: 1);
-            IDataView secondYearData = mlContext.Data.FilterRowsByColumn(data, "Date", lowerBound: 1);
+            var count = File.ReadAllLines(csv).Length - 1;
+            var first = mlContext.Data.TakeRows(dataView, count / 2);
+            var second = mlContext.Data.SkipRows(dataView, count / 2);
+
 
             var forecastingPipeline = mlContext.Forecasting.ForecastBySsa(
-                outputColumnName: "ForecastedRentals",
-                inputColumnName: "TotalRentals",
+                outputColumnName: "ForecastedClose",
+                inputColumnName: "Close",
                 windowSize: 7,
                 seriesLength: 30,
-                trainSize: 365,
+                trainSize: count / 2,
                 horizon: 7,
                 confidenceLevel: 0.95f,
-                confidenceLowerBoundColumn: "LowerBoundRentals",
-                confidenceUpperBoundColumn: "UpperBoundRentals");
+                confidenceLowerBoundColumn: "LowerBoundClose",
+                confidenceUpperBoundColumn: "UpperBoundClose");
 
-            SsaForecastingTransformer forecaster = forecastingPipeline.Fit(firstYearData);
+            SsaForecastingTransformer forecaster = forecastingPipeline.Fit(first);
 
-            Evaluate(secondYearData, forecaster, mlContext);
+            Evaluate(second, forecaster, mlContext);
 
             var forecastEngine = forecaster.CreateTimeSeriesEngine<ModelInput, ModelOutput>(mlContext);
             forecastEngine.CheckPoint(mlContext, modelPath);
 
-            Forecast(secondYearData, 7, forecastEngine, mlContext);
+            Forecast(second, 7, forecastEngine, mlContext);
 
-            Console.ReadKey();*/
+            Console.WriteLine("끝");
+            
         }
-/*
+
         static void Evaluate(IDataView testData, ITransformer model, MLContext mlContext)
         {
             // Make predictions
@@ -71,12 +119,12 @@ namespace ml.net
             // Actual values
             IEnumerable<float> actual =
                 mlContext.Data.CreateEnumerable<ModelInput>(testData, true)
-                    .Select(observed => observed.TotalRentals);
+                    .Select(observed => observed.Close);
 
             // Predicted values
             IEnumerable<float> forecast =
                 mlContext.Data.CreateEnumerable<ModelOutput>(predictions, true)
-                    .Select(prediction => prediction.ForecastedRentals[0]);
+                    .Select(prediction => prediction.ForecastedClose[0]);
 
             // Calculate error (actual - forecast)
             var metrics = actual.Zip(forecast, (actualValue, forecastValue) => actualValue - forecastValue);
@@ -100,47 +148,27 @@ namespace ml.net
             IEnumerable<string> forecastOutput =
                 mlContext.Data.CreateEnumerable<ModelInput>(testData, reuseRowObject: false)
                     .Take(horizon)
-                    .Select((ModelInput rental, int index) =>
+                    .Select((ModelInput input, int index) =>
                     {
-                        string rentalDate = rental.RentalDate.ToShortDateString();
-                        float actualRentals = rental.TotalRentals;
-                        float lowerEstimate = Math.Max(0, forecast.LowerBoundRentals[index]);
-                        float estimate = forecast.ForecastedRentals[index];
-                        float upperEstimate = forecast.UpperBoundRentals[index];
-                        return $"Date: {rentalDate}\n" +
-                        $"Actual Rentals: {actualRentals}\n" +
-                        $"Lower Estimate: {lowerEstimate}\n" +
+                        string date = input.Date.ToShortDateString();
+                        double actualClose= input.Close;
+                        double lowerEstimate = Math.Max(0, forecast.LowerBoundClose[index]);
+                        double estimate = forecast.ForecastedClose[index];
+                        double upperEstimate = forecast.UpperBoundClose[index];
+                        return $"Date: {date}\n" +
+                        $"Actual Close: {actualClose}\n" +
                         $"Forecast: {estimate}\n" +
+                        $"Lower Estimate: {lowerEstimate}\n" +
                         $"Upper Estimate: {upperEstimate}\n";
                     });
 
             // Output predictions
-            Console.WriteLine("Rental Forecast");
+            Console.WriteLine("Close Forecast");
             Console.WriteLine("---------------------");
             foreach (var prediction in forecastOutput)
             {
                 Console.WriteLine(prediction);
             }
-        }*/
-    }
-
-    public class ModelInput
-    {
-        [LoadColumn(0)]
-        public DateTime Date { get; set; }
-        [LoadColumn(2)]
-        public float High { get; set; }
-        [LoadColumn(3)]
-        public float Low { get; set; }        
-    }
-
-    public class ModelOutput
-    {
-        public DateTime Date { get; set; }
-        public float Price { get; set; }
-    }
-    public class CustomMappingOutput
-    {
-        public float Mid { get; set; }
+        }
     }
 }

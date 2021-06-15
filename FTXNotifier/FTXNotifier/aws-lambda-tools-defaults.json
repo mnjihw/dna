@@ -1,0 +1,27 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "default",
+    "region"      : "ap-northeast-2",
+    "configuration" : "Release",
+    "package-type"  : "Image",
+    "function-memory-size" : 256,
+    "function-timeout"     : 30,
+    "image-command"        : "FTXNotifier::FTXNotifier.Function::NotifyIfDepositCompleted",
+    "docker-host-build-output-dir" : "./bin/Release/net5.0/linux-x64/publish",
+    "framework"                    : "net5.0",
+    "function-name"                : "NotifyIfDepositCompleted",
+    "function-description"         : "",
+    "function-handler"             : "aws_lambda2::aws_lambda2.Function::NotifyIfDepositCompleted",
+    "function-role"                : "arn:aws:iam::256237845373:role/service-role/test-role-13y7axhe",
+    "function-runtime"             : "provided",
+    "tracing-mode"                 : "PassThrough",
+    "environment-variables"        : "\"SecretKey\"=\"n8e-x0CuO55jkBqScXHjQ5NJy6s_5rYWhwvRBHOG\";\"ApiKey\"=\"sFbP6ag_pC702mu11cZGqH7B_Fta4iLzsGYPhK04\";\"TelegramBotToken\"=\"1557742912:AAHJpIVYERHRxiXwME78ahwnYjg6-7tAbuE\";\"ChatId\"=\"1390930895\"",
+    "dockerfile"                   : "Dockerfile",
+    "image-tag"                    : "ftxnotifier:latest"
+}

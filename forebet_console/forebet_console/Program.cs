@@ -2,18 +2,13 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Web;
-using MySql.Data.MySqlClient;
 using System.Data;
-using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Globalization;
 using System.Text.Json;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
+using System.IO;
+using Telegram.Bot;
 using System.Data.Common;
 
 namespace forebet_console
@@ -21,18 +16,35 @@ namespace forebet_console
     class Program
     {
         private static HttpClient HttpClient { get; } = new HttpClient();
-        private static Dictionary<string, MatchData> Dict { get; } = new Dictionary<string, MatchData>();
+        private static Dictionary<string, MatchData> TotalMatchDatas { get; } = new Dictionary<string, MatchData>();
         static async Task Main()
         {
-            var random = new Random();
-            var matchDataFromForebet = new List<MatchData>();
-            var matchDataFromDatabase = new List<MatchData>();
-            var htmlDocument = new HtmlDocument();
-            using var connection = new MySqlConnection("Server=127.0.0.1;Port=3306;Database=test;Uid=root;Password=flema0288~"); //비밀번호 적혀있음 조심
+
+            using var dd = new MyDbContext();
             
-            var command = connection.CreateCommand();
-            await connection.OpenAsync();
-            command.CommandTimeout = 500;
+
+            var random = new Random();
+            var matchDatasFromForebet = new List<MatchData>();
+            
+            var htmlDocument = new HtmlDocument();
+
+#if a
+            const string serverIP = "127.0.0.1";
+            const int port = 3306;
+            const string databaseName = "suggestion";
+            const string userName = "suggestion";
+            const string password = "SIsEQe85rekASOfar6mAB115qAf82u";
+
+
+            using var db = DBConnection.Instance;
+            if (!await db.ConnectAsync(serverIP, port, databaseName, userName, password))
+            {
+                Console.WriteLine("연결 실패!");
+                return;
+            }
+
+            using var sqlExecutor = new SqlExecutor(db.SqlConnection);
+#endif
 
 
             int blockedCount = 0;
@@ -40,9 +52,8 @@ namespace forebet_console
             {
                 while (true)
                 {
-                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} 크롤링 시작");
-                    matchDataFromForebet.Clear();
-                    matchDataFromDatabase.Clear();
+                    Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] 크롤링 시작");
+                    matchDatasFromForebet.Clear();
 
                     string result = default;
                     try
@@ -56,7 +67,11 @@ namespace forebet_console
                     }
                     htmlDocument.LoadHtml(result);
                     var nodes = htmlDocument.DocumentNode.SelectNodes("//table[@class='schema tblen']/tr[starts-with(@class, 'tr')]");
-
+                    if(nodes == null)
+                    {
+                        await Task.Delay(1000 + random.Next() % 2000);
+                        continue;
+                    }
 
                     foreach (var node in nodes)
                     {
@@ -70,28 +85,41 @@ namespace forebet_console
                             DrawOdds = double.TryParse(oddsNode.SelectSingleNode("span[2]").InnerText, out odds) ? odds : default,
                             AwayOdds = double.TryParse(oddsNode.SelectSingleNode("span[3]").InnerText, out odds) ? odds : default
                         };
-                        matchDataFromForebet.Add(data);
+                        matchDatasFromForebet.Add(data);
                     }
                     int index = 11;
                     do
                     {
-
-                        while (string.IsNullOrWhiteSpace(result = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={index}&ord=0")))
+                        try
                         {
-                            await Task.Delay(TimeSpan.FromMinutes(5)); //빈 문자열 리턴되면 5분 쉬고 계속 시도
-                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {++blockedCount}번 차단됨");
+                            while (string.IsNullOrWhiteSpace(result = await HttpClient.GetStringAsync($"https://www.forebet.com/scripts/getrs.php?ln=en&tp=1x2&in={index}&ord=0")))
+                            {
+                                await Task.Delay(TimeSpan.FromMinutes(5)); //빈 문자열 리턴되면 5분 쉬고 계속 시도
+                                Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] {++blockedCount}번 차단됨");
+                            }
+                        }
+                        catch(HttpRequestException)
+                        {
+                            await Task.Delay(TimeSpan.FromSeconds(10));
+                            continue;
                         }
 
                         JsonDocument json = default;
-                        try
+                        for (int i = 0; i < 3; ++i)
                         {
-                            json = JsonDocument.Parse(result);
+                            try
+                            {
+                                json = JsonDocument.Parse(result);
+                            }
+                            catch (JsonException)
+                            {
+                                result = result.Remove(result.Length - 1);
+                            }
                         }
-                        catch (JsonException e) 
+                        if(json == null)
                         {
-                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {e}");
-                            var a = result;
-                            Console.WriteLine(a);
+                            await Task.Delay(1000 + random.Next() % 2000);
+                            continue;
                         }
 
 
@@ -106,7 +134,7 @@ namespace forebet_console
                                 DrawOdds = double.TryParse(match.GetProperty("best_odd_X").GetString(), out odds) ? odds : default,
                                 AwayOdds = double.TryParse(match.GetProperty("best_odd_2").GetString(), out odds) ? odds : default
                             };
-                            matchDataFromForebet.Add(data);
+                            matchDatasFromForebet.Add(data);
                         }
                         await Task.Delay(1000 + random.Next() % 2000);
 
@@ -122,111 +150,84 @@ namespace forebet_console
                         if (string.IsNullOrWhiteSpace(result))
                         {
                             await Task.Delay(TimeSpan.FromMinutes(5));
-                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {++blockedCount}번 차단됨");
+                            Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] {++blockedCount}번 차단됨");
                         }
                         await Task.Delay(1000 + random.Next() % 2000);
 
                     } while (result == "1");
-                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} 크롤링 끝");
+                    Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] 크롤링 끝");
 
-
-                    command.CommandText = $"SELECT home_title, away_title, home_odds, draw_odds, away_odds from sport_match";
-                    using var reader = await command.ExecuteReaderAsync();
-                   
-                    while (await reader.ReadAsync())
+                    List<MatchData> matchDatasFromDatabase = default;
+                    try
                     {
-                        var matchData = new MatchData
-                        {
-                            HomeTeam = reader.GetString("home_title"),
-                            AwayTeam = reader.GetString("away_title"),
-                            HomeOdds = double.Parse(reader.GetString("home_odds")),
-                            DrawOdds = double.Parse(reader.GetString("draw_odds")),
-                            AwayOdds = double.Parse(reader.GetString("away_odds")),
-                            //StartDate = 필요없을듯
-                        };
-
-                        matchDataFromDatabase.Add(matchData);
-                        Dict[$"{matchData.HomeTeam}-{matchData.AwayTeam}"] = matchData;
+                        matchDatasFromDatabase = dd.MatchDatas.ToList();
                     }
-                    await reader.CloseAsync();
+                    catch(Exception e)
+                    {
+                        await Logger.SendTelegramMessageAsync(e.ToString());
+                    }
+#if a
+                    var matchDatasFromDatabase = await sqlExecutor.GetMatchDatasAsync();
+#endif
+
+                    foreach (var matchData in matchDatasFromDatabase)
+                        TotalMatchDatas[$"{matchData.HomeTeam}-{matchData.AwayTeam}"] = matchData; 
                     
-                    var intersectedData = matchDataFromForebet.Intersect(matchDataFromDatabase, new MatchDataComparer()); //first second의 element가 같으면 first의 element를 리턴함
                     
-                    command.Parameters.Clear();
-                    command.Parameters.Add("@title", MySqlDbType.VarChar);
-                    command.Parameters.Add("@homeOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@drawOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@awayOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@registrationDate", MySqlDbType.DateTime);
-
-                    command.CommandText = "UPDATE sport_match SET home_odds = @homeOdds, draw_odds = @drawOdds, away_odds = @awayOdds, registration_date = @registrationDate WHERE title = @title";
-                    await command.PrepareAsync();
-                    var transaction = await connection.BeginTransactionAsync();
-                    command.Transaction = transaction;
-
-
+                    var intersectedDatas = matchDatasFromForebet.Intersect(matchDatasFromDatabase, new MatchDataComparer()); //first second의 element가 같으면 first의 element를 리턴함
                     int updatedCount = 0;
 
-                    foreach (var changedData in intersectedData)
-                    {
-                        var title = $"{changedData.HomeTeam}-{changedData.AwayTeam}";
-                        var oldData = Dict[title];
+                   
+                    var list = new List<MatchData>();
 
-                        if(changedData.HomeOdds != oldData.HomeOdds || changedData.DrawOdds != oldData.DrawOdds || changedData.AwayOdds != oldData.AwayOdds) //데이터 변동 있으면 update
+                    foreach (var intersectedData in intersectedDatas)
+                    {
+                        var title = $"{intersectedData.HomeTeam}-{intersectedData.AwayTeam}";
+                        var oldData = TotalMatchDatas[title];
+
+                        if (intersectedData.HomeOdds != oldData.HomeOdds || intersectedData.DrawOdds != oldData.DrawOdds || intersectedData.AwayOdds != oldData.AwayOdds) //데이터 변동 있으면 update
                         {
-                            command.Parameters["@title"].Value = title;
-                            command.Parameters["@homeOdds"].Value = changedData.HomeOdds;
-                            command.Parameters["@drawOdds"].Value = changedData.DrawOdds;
-                            command.Parameters["@awayOdds"].Value = changedData.AwayOdds;
-                            command.Parameters["@registrationDate"].Value = DateTime.Now.FormatAsDatebaseDateTime();
-                            await command.ExecuteNonQueryAsync();
+                            list.Add(intersectedData);
                             ++updatedCount;
-                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {oldData}->{changedData} UPDATE함");
                         }
                     }
-
-                    await transaction.CommitAsync();
-                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {updatedCount}개 UPDATE 완료");
-
-
-                    var newData = matchDataFromForebet.Except(matchDataFromDatabase, new MatchDataComparer());
-
-                    command.Parameters.Clear();
-                    command.Parameters.Add("@title", MySqlDbType.VarChar);
-                    command.Parameters.Add("@homeTeam", MySqlDbType.VarChar);
-                    command.Parameters.Add("@awayTeam", MySqlDbType.VarChar);
-                    command.Parameters.Add("@homeOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@drawOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@awayOdds", MySqlDbType.VarChar);
-                    command.Parameters.Add("@startDate", MySqlDbType.DateTime);
-
-                    command.CommandText = $"INSERT INTO sport_match (title, status, home_title, home_odds, draw_odds, away_title, away_odds, date_start, source, registration_date, sport_srl) VALUES(@title, 'Wait', @homeTeam, @homeOdds, @drawOdds, @awayTeam, @awayOdds, @startDate, 'Forebet', '{DateTime.Now.FormatAsDatebaseDateTime()}', {1})";
-                    await command.PrepareAsync();
-                    transaction = await connection.BeginTransactionAsync();
-                    command.Transaction = transaction;
-
-                    int insertedCount = 0;
-                    foreach(var data in newData)
+                    try
+                    {
+                        //await dd.MatchDatas.AddRangeAsync(list);
+                        //dd.MatchDatas.Where(matchData => matchData.) 아몰랑 여기 하다말음 밑에 인서트랑
+                        await dd.SaveChangesAsync();
+                    }
+                    catch(Exception e)
                     {
                         
-                        command.Parameters["@title"].Value = $"{data.HomeTeam}-{data.AwayTeam}";
-                        command.Parameters["@homeTeam"].Value = data.HomeTeam;
-                        command.Parameters["@awayTeam"].Value = data.AwayTeam;
-                        command.Parameters["@homeOdds"].Value = data.HomeOdds;
-                        command.Parameters["@drawOdds"].Value = data.DrawOdds;
-                        command.Parameters["@awayOdds"].Value = data.AwayOdds;
-                        command.Parameters["@startdate"].Value = data.StartDate.FormatAsDatebaseDateTime();
-
-
-                        if (await command.ExecuteNonQueryAsync() == 0)
-                        {
-                            Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {data} 머냐 인서트 실패");
-                        }
-
-                        ++insertedCount;
                     }
-                    await transaction.CommitAsync();
-                    Console.WriteLine($"{DateTime.Now.FormatAsDatebaseDateTime()} {insertedCount}개 INSERT 완료 3분 쉼");
+#if a
+                    await sqlExecutor.UpdateMatchDatas(list);
+#endif
+                    
+
+                    Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] {updatedCount}개 UPDATE 완료");
+
+
+                    var newDatas = matchDatasFromForebet.Except(matchDatasFromDatabase, new MatchDataComparer()).ToList();
+
+#if a
+                    await sqlExecutor.InsertMatchDatas(newDatas);
+#endif
+                    try
+                    {
+                        await dd.MatchDatas.AddRangeAsync(newDatas);
+                        await dd.SaveChangesAsync();
+                    }
+                    catch (Exception e)
+                    {
+                        await Logger.SendTelegramMessageAsync(e.ToString());
+                    }
+
+                    int insertedCount = newDatas.Count;
+
+                   
+                    Console.WriteLine($"[{DateTime.Now.ToDatebaseDateTime()}] {insertedCount}개 INSERT 완료 3분 쉼");
                     
                     await Task.Delay(TimeSpan.FromMinutes(3));
                     
@@ -235,7 +236,7 @@ namespace forebet_console
             }
             catch(Exception e)
             {
-                 Console.WriteLine(e);
+                await Logger.SendTelegramMessageAsync(e.ToString());
             }
         }
     }

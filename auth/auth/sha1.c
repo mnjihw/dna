@@ -29,7 +29,7 @@ void* sha1_body(sha1_t *sha1, const void *data, unsigned int size)
 {
 	unsigned int *p, a, b, c, d, e, aa, bb, cc, dd, ee, b00, b01, b02, b03, b04, b05, b06, b07, b08, b09, b10, b11, b12, b13, b14, b15;
 
-	VIRTUALIZER_TIGER_BLACK_START
+	//VIRTUALIZER_TIGER_BLACK_START
 	{
 		p = (unsigned int *) data;
 		a = sha1->state[0];
@@ -38,7 +38,7 @@ void* sha1_body(sha1_t *sha1, const void *data, unsigned int size)
 		d = sha1->state[3];
 		e = sha1->state[4];
 	}
-		VIRTUALIZER_TIGER_BLACK_END
+		//VIRTUALIZER_TIGER_BLACK_END
 
 		do {
 			aa = a, bb = b, cc = c, dd = d, ee = e;
@@ -125,7 +125,7 @@ void* sha1_body(sha1_t *sha1, const void *data, unsigned int size)
 			a += aa, b += bb, c += cc, d += dd, e += ee, p += 16;
 		} while (size -= 64u);
 
-		VIRTUALIZER_TIGER_BLACK_START
+		//VIRTUALIZER_TIGER_BLACK_START
 		{
 			sha1->state[0] = a;
 			sha1->state[1] = b;
@@ -133,7 +133,7 @@ void* sha1_body(sha1_t *sha1, const void *data, unsigned int size)
 			sha1->state[3] = d;
 			sha1->state[4] = e;
 		}
-			VIRTUALIZER_TIGER_BLACK_END
+			//VIRTUALIZER_TIGER_BLACK_END
 			return p;
 }
 
@@ -153,7 +153,7 @@ void sha1_update(sha1_t *sha1, const void *data, unsigned int size)
 {
 	unsigned int i, j;
 
-	VIRTUALIZER_TIGER_BLACK_START
+	//VIRTUALIZER_TIGER_BLACK_START
 	{
 		if (i = (unsigned int) sha1->bytes & 63, sha1->bytes += size, i) {
 			if (size >= (j = 64u - i)) {
@@ -178,14 +178,14 @@ void sha1_update(sha1_t *sha1, const void *data, unsigned int size)
 		else
 			memcpy(sha1->buffer, data, size);
 	}
-		VIRTUALIZER_TIGER_BLACK_END
+		//VIRTUALIZER_TIGER_BLACK_END
 }
 
 void sha1_final(sha1_t *sha1)
 {
 	unsigned int i, j;
 
-	VIRTUALIZER_TIGER_BLACK_START
+	//VIRTUALIZER_TIGER_BLACK_START
 	{
 		i = (unsigned int) sha1->bytes & 63;
 		sha1->buffer[i] = 128u;
@@ -202,7 +202,7 @@ void sha1_final(sha1_t *sha1)
 		*(unsigned int *) &sha1->buffer[60] = (i = (unsigned int) sha1->bytes, _byteswap_ulong(i));
 		sha1_body(sha1, sha1->buffer, 64);
 	}
-		VIRTUALIZER_TIGER_BLACK_END
+		//VIRTUALIZER_TIGER_BLACK_END
 }
 
 char* sha1_tostring(sha1_t *sha1, char *string)

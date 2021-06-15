@@ -19,6 +19,7 @@ using System.Security.Principal;
 using System.Security;
 using System.Collections;
 using System.Collections.Concurrent;
+using OpenHardwareMonitor.Hardware;
 
 namespace ConsoleApp1
 {
@@ -31,30 +32,61 @@ namespace ConsoleApp1
 
         static  void Main(string[] args)
         {
-            var q = new ConcurrentQueue<string>();
-            var a = Task.Run(async () =>
+            Computer computer = new Computer
             {
-                while(true)
-                {
-                    q.Enqueue(DateTime.Now.ToString());
-                    await Task.Delay(1000);
-                }
-            });
-            var b = Task.Run(async () =>
+                CPUEnabled = true,
+                GPUEnabled = true,
+                MainboardEnabled = true,
+                FanControllerEnabled = true,
+                HDDEnabled = true,
+                RAMEnabled = true,
+            };
+            computer.Open();
+
+            foreach(var hardware in computer.Hardware)
             {
-                while (true)
+                if(hardware.HardwareType == HardwareType.CPU)
                 {
-                    if (q.TryDequeue(out var s))
+                    hardware.Update();
+
+                    foreach(var d in hardware.Sensors)
                     {
-                        Console.WriteLine(s);
+                        //Console.WriteLine($"{d.Name} {d.Max.Value} {d.Min.Value}");
                     }
-                    await Task.Delay(100);
-                    
                 }
+                else if(hardware.HardwareType == HardwareType.Mainboard)
+                {
+                    hardware.Update();
+                    foreach (var d in hardware.SubHardware)
+                    {
+                        //Console.WriteLine($"{d.Name} {d.Max.Value} {d.Min.Value}");
+                        d.Update();
+                        foreach(var c in d.Sensors)
+                        {
+                            
+                            Console.WriteLine($"{c.Name} {c.Max.Value} {c.Min.Value}");
+                        }
+                    }
+                }
+                /*foreach(var subhardware in hardware.SubHardware)
+                {
+                    subhardware.Update();
+                    if (subhardware.Sensors.Length > 0)
+                    {
+                        foreach(var sensor in subhardware.Sensors)
+                        {
+                            if(sensor.SensorType == SensorType.Fan)
+                            {
+                                Console.WriteLine("DD");
+                            }
 
-            });
-            Console.ReadLine();
+                        }
+                    }
+                }*/
+            }
 
+            
+            computer.Close();
             return;
             var processStartInfo = new ProcessStartInfo
             {

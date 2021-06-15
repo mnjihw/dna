@@ -17,7 +17,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
-using System.Runtime.InteropServices.WindowsRuntime;
 using OpenQA.Selenium.DevTools.Page;
 using Newtonsoft.Json.Serialization;
 using System.ComponentModel.Design;
@@ -25,6 +24,9 @@ using System.Web;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Security.Principal;
+using System.Threading;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace ConsoleApp2
 {
@@ -38,12 +40,119 @@ namespace ConsoleApp2
         private static HttpClient Client { get; } = new HttpClient();
 
 
+        public static List<(int, int)> GetAdjacentTomatoes(int[, ] arr, int i, int j)
+        {
+            var dx = new[] { 0, 0, -1, 1 };
+            var dy = new[] { 1, -1, 0, 0 };
+            var list = new List<(int, int)>();
+
+            for (int k = 0; k < dx.Length; ++k)
+            {
+                var nx = i + dx[k];
+                var ny = j + dy[k];
+
+                if (0 <= nx && nx < arr.GetLength(0) && 0 <= ny && ny < arr.GetLength(1) && arr[nx, ny] > 0)
+                {
+                    list.Add((nx, ny));
+                }
+            }
+            return list;
+        }
 
         static async Task Main()
         {
-          
+            //var arr = new[,] { { 0, 2, 2, 2, 2, 2 }, { 2, 2, 2, 2, 2, 2 }, { 2, 2, 2, 2, 2, 2 }, { 2, 2, 2, 2, 2, 0 } };
+            var arr = new[,] { { 1, 2, 2, 0, 1 }, { 2, 1, 2, 1, 2 }, { -1, -1, 0, 1, 1 }, { 0, -1, 1, 1, 0 } };
+            var adjacentTomatoes = new List<(int, int)>();
+
+            for (int i = 0; i < arr.GetLength(0); ++i)
+            {
+                for(int j = 0; j < arr.GetLength(1); ++j)
+                {
+                    if (arr[i, j] == 0)
+                    {
+                        foreach (var tomato in GetAdjacentTomatoes(arr, i, j))
+                        {
+                            if(!adjacentTomatoes.Contains(tomato))
+                                adjacentTomatoes.Add(tomato);
+                        }
+                    }
+                }
+            }
+            
+            var days = 0;
+
+            var wating = new List<(int, int)>();
+
+            while (adjacentTomatoes.Count != 0)
+            {
+                ++days;
+                wating.Clear();
+                for (int i = 0; i < adjacentTomatoes.Count; ++i)
+                {
+                    var (x, y) = adjacentTomatoes[i];
+                    --arr[x, y];
+                    Console.WriteLine($"{(x, y)} 1 깎음");
+                    if (arr[x, y] == 0)
+                    {
+                        Console.WriteLine($"{(x, y)} 익음");
+                        
+                        adjacentTomatoes.RemoveAt(i);
+                        --i;
+                        foreach (var tomato in GetAdjacentTomatoes(arr, x, y))
+                        {
+                            if (!wating.Contains(tomato) && !adjacentTomatoes.Contains(tomato))
+                            {
+                                Console.WriteLine($"{tomato} 웨이팅 넣음");
+                                wating.Add(tomato);
+                            }
+                        }
+                        Console.WriteLine();
+                    }
+                }
+                Console.WriteLine("웨이팅 한번에 추가함");
+                adjacentTomatoes.AddRange(wating);
+            }
+            for (int i = 0; i < arr.GetLength(0); ++i)
+            {
+                for (int j = 0; j < arr.GetLength(1); ++j)
+                {
+                    if (arr[i, j] > 0)
+                    {
+                        Console.WriteLine("-1");
+                        return;
+                    }
+                }
+            }
+
+            Console.WriteLine(days);
+            /* do
+             {
+                 ++days;
+
+                 //foreach (var ripen in ripenTomatoes)
+                 for(int k = 0; k < ripenTomatoes.Count; ++k)
+                 {
+                     var (x, y) = ripenTomatoes[k];
+                     for (int i = 0; i < dx.Length; ++i)
+                     {
+                         var nx = x + dx[i];
+                         var ny = y + dy[i];
+
+                         if (0 <= nx && nx < arr.GetLength(0) && 0 <= ny && ny < arr.GetLength(1) && arr[nx, ny] != 0)
+                         {
+                             adjacentTomatoes.Add((nx, ny));
+
+                             if (--arr[nx, ny] == 0)
+                                 ripenTomatoes.Add(adjacentTomatoes.Dequeue());
+                         }
+                     }
+                 }
+
+             } while (adjacentTomatoes.Count != 0);*/
+
             return;
-            string result;
+            
 
 
             Client.DefaultRequestHeaders.Add("Authorization", "bearer guest");
@@ -54,7 +163,7 @@ namespace ConsoleApp2
 
 
 
-            result = await Client.GetStringAsync($"http://shopdp-api.baemin.com/v1/SEARCH/shops?keyword=%EB%84%A4%EB%84%A4%EC%B9%98%ED%82%A8&filter=&sort=SORT__DEFAULT&kind=DEFAULT&limit=25&latitude=35.882825&longitude=128.671131");
+            var result = await Client.GetStringAsync($"http://shopdp-api.baemin.com/v1/SEARCH/shops?keyword=%EB%84%A4%EB%84%A4%EC%B9%98%ED%82%A8&filter=&sort=SORT__DEFAULT&kind=DEFAULT&limit=25&latitude=35.882825&longitude=128.671131");
             var json = JsonDocument.Parse(result);
             foreach (var shop in json.RootElement.GetProperty("data").GetProperty("shops").EnumerateArray())
             {

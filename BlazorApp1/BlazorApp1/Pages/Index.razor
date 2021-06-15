@@ -1,0 +1,29 @@
+﻿@page "/"
+
+<div style="display: flex; flex-direction: row; ">
+
+    <input @bind="Name" placeholder="이름" />&nbsp;
+    <input @bind="BirthDate" placeholder="생년월일(6자리)" />&nbsp;
+    <button @onclick="Check">제출</button>
+</div>
+@if (Condition)
+{
+    <img src="1.jpg" style="width: 70%; height: 70%" />
+}
+<!--<img src="1.jpg"/>-->
+@code {
+    private string Name { get; set; }
+    private string BirthDate { get; set; }
+    private bool Condition { get; set; }
+
+    private void Check()
+    {
+        if (Name == "정희명" && BirthDate == "960313")
+        {
+            Condition = true;
+        }
+        else
+        {
+        }
+    }
+}

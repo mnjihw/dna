@@ -6,6 +6,6 @@ namespace forebet_console
 {
     public static class DateTimeExtensions
     {
-        public static string FormatAsDatebaseDateTime(this DateTime dateTime) => $"{dateTime:yyyy-MM-dd HH:mm:ss}";
+        public static string ToDatebaseDateTime(this DateTime dateTime) => $"{dateTime:yyyy-MM-dd HH:mm:ss}";
     }
 }

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "instagram_archiver", "instagram_archiver\instagram_archiver.csproj", "{96F543D2-FDAB-4424-A1C4-053D5C0EB4F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "instagram_archiverML.Model", "instagram_archiverML.Model\instagram_archiverML.Model.csproj", "{EEF6F440-CC7A-44FA-A7A8-7F615EDC198A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "instagram_archiverML.ConsoleApp", "instagram_archiverML.ConsoleApp\instagram_archiverML.ConsoleApp.csproj", "{069BFBAB-7BF9-4587-A151-3819D8DDF443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96F543D2-FDAB-4424-A1C4-053D5C0EB4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F543D2-FDAB-4424-A1C4-053D5C0EB4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F543D2-FDAB-4424-A1C4-053D5C0EB4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F543D2-FDAB-4424-A1C4-053D5C0EB4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF6F440-CC7A-44FA-A7A8-7F615EDC198A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF6F440-CC7A-44FA-A7A8-7F615EDC198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF6F440-CC7A-44FA-A7A8-7F615EDC198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF6F440-CC7A-44FA-A7A8-7F615EDC198A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069BFBAB-7BF9-4587-A151-3819D8DDF443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069BFBAB-7BF9-4587-A151-3819D8DDF443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069BFBAB-7BF9-4587-A151-3819D8DDF443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069BFBAB-7BF9-4587-A151-3819D8DDF443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E5E4C5-2CEF-4C2F-85A2-E39FAA6102E7}
+	EndGlobalSection
+EndGlobal

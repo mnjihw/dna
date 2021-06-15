@@ -1,7 +1,7 @@
 #include <WinSock2.h>
 #include <stdio.h>
 #include <ShlObj.h>
-#include <VirtualizerSDK.h>
+//#include <VirtualizerSDK.h>
 #include <TlHelp32.h>
 #pragma comment(lib, "ws2_32.lib")
 

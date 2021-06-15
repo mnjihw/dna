@@ -10,6 +10,7 @@ namespace telegram_bot
     class Program
     {
         private static readonly string chatId = "581720134";//나
+        //455892097 민석
         static async Task Main(string[] args)
         {
 

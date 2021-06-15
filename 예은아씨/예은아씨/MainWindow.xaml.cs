@@ -32,8 +32,11 @@ namespace 예은아씨
         private List<Timer> UnbanTimers { get; set; } = new List<Timer>();
         private bool Running { get; set; }
         private Configuration Configuration { get; set; } = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-        private static string MyId => "yeeunn";
-        private ConnectionCredentials Credentials { get; set; } = new ConnectionCredentials(MyId, "oauth:so26qfb3f3uj0himkr6w6uqxe2owcg"); //https://twitchapps.com/tmi/
+        //private static string MyId => "yeeunn";
+        private static string MyId => "mnjihw0210";
+        //private ConnectionCredentials Credentials { get; set; } = new ConnectionCredentials(MyId, "oauth:so26qfb3f3uj0himkr6w6uqxe2owcg"); //https://twitchapps.com/tmi/
+        private ConnectionCredentials Credentials { get; set; } = new ConnectionCredentials(MyId, "oauth:vs865v6vvejfz54tqkyydwuzvpz5n8"); //https://twitchapps.com/tmi/
+        //oauth:vs865v6vvejfz54tqkyydwuzvpz5n8 이거내꺼
         private static ClientOptions ClientOptions { get; set; } = new ClientOptions { MessagesAllowedInPeriod = 750};
         private static WebSocketClient WebSocketClient { get; set; } = new WebSocketClient(ClientOptions);
         private TwitchClient TwitchClient { get; set; } = new TwitchClient(WebSocketClient);
@@ -205,8 +208,13 @@ namespace 예은아씨
                 });
                 
 
-                TwitchClient.Initialize(Credentials);
+                TwitchClient.Initialize(Credentials, "ju10506");
                 TwitchClient.Connect();
+
+                TwitchClient.OnMessageReceived += (sender, e) =>
+                {
+                    Trace.WriteLine($"{e.ChatMessage.DisplayName}: {e.ChatMessage.Message}");
+                };
             });
             
 

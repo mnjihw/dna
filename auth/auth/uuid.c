@@ -291,7 +291,7 @@ char* gen_uuid(char buffer[48])
 	sha1_t sha1;
 	char data[64];
 
-	VIRTUALIZER_TIGER_BLACK_START
+	//VIRTUALIZER_TIGER_BLACK_START
 	{
 		*buffer = '\0';
 		if (uuid_check_smbios() == 3)
@@ -379,7 +379,7 @@ char* gen_uuid(char buffer[48])
 			}
 		}
 	}
-		VIRTUALIZER_TIGER_BLACK_END
+		//VIRTUALIZER_TIGER_BLACK_END
 
 		return buffer;
 }
